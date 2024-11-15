@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/exercism.nvim/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/exercism.nvim?style=flat&color=e06c75&label="> </a>
 
-<h3>Ready to go Neovim template 🏗️✈️</h3>
+<h3>Ready to go Neovim exercism 🏗️✈️</h3>
 
 <figure>
   <img src="doc/images/screenshot.png" alt="exercism.nvim in action">
@@ -34,10 +34,10 @@ exercism.nvim is a neovim plugin that allows neovim users to `<action>`.
 
 ## ✨ Features
 
-- Includes a ready to go neovim plugin template
+- Includes a ready to go neovim plugin exercism
 - Comes with a lint and test CI action
 - Includes a Github action to auto generate vimdocs
-- Comes with a ready to go README template
+- Comes with a ready to go README exercism
 - Works with [mkrepo](https://github.com/2kabhishek/mkrepo)
 
 ## ⚡ Setup
@@ -52,7 +52,7 @@ exercism.nvim is a neovim plugin that allows neovim users to `<action>`.
 -- Lazy
 {
     '2kabhishek/exercism.nvim',
-    cmd = 'TemplateHello',
+    cmd = 'ExercismHello',
     -- Add your custom configs here, keep it blank for default configs (required)
     opts = {},
     -- Use this for local development
@@ -63,12 +63,12 @@ exercism.nvim is a neovim plugin that allows neovim users to `<action>`.
 ## 🚀 Usage
 
 1. Fork the `exercism.nvim` repo
-2. Update the plugin name, file names etc, change `template` to `your-plugin-name`
+2. Update the plugin name, file names etc, change `exercism` to `your-plugin-name`
 3. Add the code required for your plugin,
-   - Code entrypoint is [template.lua](./lua/template.lua)
-   - Add user configs to [config.lua](./lua/template/config.lua)
-   - For adding commands and keybindngs use [commands.lua](./lua/template/commands.lua)
-   - Separate plugin logic into modules under [modules](./lua/template/) dir
+   - Code entrypoint is [exercism.lua](./lua/exercism.lua)
+   - Add user configs to [config.lua](./lua/exercism/config.lua)
+   - For adding commands and keybindngs use [commands.lua](./lua/exercism/commands.lua)
+   - Separate plugin logic into modules under [modules](./lua/exercism/) dir
 4. Add test code to the [tests](./tests/) directory
 5. Update the README
 6. Tweak the [docs action](./.github/workflows/docs.yml) file to reflect your username, commit message and plugin name
@@ -80,7 +80,7 @@ exercism.nvim is a neovim plugin that allows neovim users to `<action>`.
 exercism.nvim can be configured using the following options:
 
 ```lua
-template.setup({
+exercism.setup({
     name = 'exercism.nvim', -- Name to be greeted, 'World' by default
 })
 ```
@@ -89,19 +89,19 @@ template.setup({
 
 `exercism.nvim` adds the following commands:
 
-- `TemplateHello`: Shows a hello message with the confugred name.
+- `ExercismHello`: Shows a hello message with the confugred name.
 
 ### Keybindings
 
 It is recommended to use:
 
-- `<leader>th,` for `TemplateHello`
+- `<leader>th,` for `ExercismHello`
 
 > NOTE: By default there are no configured keybindings.
 
 ### Help
 
-Run `:help template.txt` for more details.
+Run `:help exercism.txt` for more details.
 
 ## 🏗️ What's Next
 
@@ -117,7 +117,7 @@ Planning to add `<feature/module>`.
 
 ### 🌈 Inspiration
 
-exercism.nvim was inspired by [nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template), I added some changes on top to make setting up a new plugin faster.
+exercism.nvim was inspired by [nvim-plugin-exercism](https://github.com/ellisonleao/nvim-plugin-exercism), I added some changes on top to make setting up a new plugin faster.
 
 ### 💡 Challenges/Learnings
 

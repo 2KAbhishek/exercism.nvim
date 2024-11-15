@@ -1,6 +1,6 @@
 ---@class CustomModule
 local M = {}
-local config = require('template.config').config
+local config = require('exercism.config').config
 
 ---@return string
 M.greet = function(name)
@@ -12,7 +12,7 @@ end
 
 M.show_notification = function(message)
     vim.notify(message, vim.log.levels.INFO, {
-        title = 'Template',
+        title = 'Exercism',
         timeout = 5000,
     })
 end

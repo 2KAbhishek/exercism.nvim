@@ -1,14 +1,14 @@
-local template = require('template')
-local module = require('template.module')
+local exercism = require('exercism')
+local module = require('exercism.module')
 
 describe('greet', function()
     it('returns message with config value', function()
-        template.setup()
+        exercism.setup()
         assert(module.greet() == 'Hello World!')
     end)
 
     it('returns message with user arg', function()
-        template.setup()
+        exercism.setup()
         assert(module.greet('Neovim') == 'Hello Neovim')
     end)
 end)
