@@ -4,6 +4,7 @@ local M = {}
 
 ---@class ExercismConfig
 ---@field name string
+---@field exercism_workspace string
 ---@field add_default_keybindings boolean
 local config = {
     name = 'World!',

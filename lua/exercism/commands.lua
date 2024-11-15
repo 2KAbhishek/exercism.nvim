@@ -1,12 +1,12 @@
 local exercism_module = require('exercism.module')
-local config = require('exercism.config')
+local config = require('exercism.config').config
 
 local M = {}
 
 M.setup = function()
-    -- Add all user commands here
-    vim.api.nvim_create_user_command('ExercismHello', function(opts)
-        exercism_module.greet(opts.args)
+    vim.api.nvim_create_user_command('ExercismList', function(opts)
+        local language = vim.split(opts.args, ' ')[1]
+        exercism_module.list_exercises(language)
     end, { nargs = '?' })
 
     if config.add_default_keybindings then
@@ -14,8 +14,9 @@ M.setup = function()
             vim.api.nvim_set_keymap('n', keys, cmd, { noremap = true, silent = true, desc = desc })
         end
 
-        -- Add all keybindings here
-        add_keymap('<leader>Th', ':ExercismHello Neovim (btw!)<CR>', 'Exercism says hi')
+        if config.add_default_keybindings then
+            add_keymap('<leader>goe', ':ExercismList lua<CR>', 'Exercism says hi')
+        end
     end
 end
 
