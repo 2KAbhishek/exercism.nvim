@@ -1,0 +1,262 @@
+[
+  {
+    "name": "accumulate",
+    "type": "practice"
+  },
+  {
+    "name": "acronym",
+    "type": "practice"
+  },
+  {
+    "name": "all-your-base",
+    "type": "practice"
+  },
+  {
+    "name": "anagram",
+    "type": "practice"
+  },
+  {
+    "name": "armstrong-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "atbash-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "bank-account",
+    "type": "practice"
+  },
+  {
+    "name": "beer-song",
+    "type": "practice"
+  },
+  {
+    "name": "binary-search",
+    "type": "practice"
+  },
+  {
+    "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "clock",
+    "type": "practice"
+  },
+  {
+    "name": "collatz-conjecture",
+    "type": "practice"
+  },
+  {
+    "name": "custom-set",
+    "type": "practice"
+  },
+  {
+    "name": "darts",
+    "type": "practice"
+  },
+  {
+    "name": "difference-of-squares",
+    "type": "practice"
+  },
+  {
+    "name": "error-handling",
+    "type": "practice"
+  },
+  {
+    "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "gigasecond",
+    "type": "practice"
+  },
+  {
+    "name": "grade-school",
+    "type": "practice"
+  },
+  {
+    "name": "grains",
+    "type": "practice"
+  },
+  {
+    "name": "hamming",
+    "type": "practice"
+  },
+  {
+    "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "house",
+    "type": "practice"
+  },
+  {
+    "name": "isbn-verifier",
+    "type": "practice"
+  },
+  {
+    "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "leap",
+    "type": "practice"
+  },
+  {
+    "name": "list-ops",
+    "type": "practice"
+  },
+  {
+    "name": "luhn",
+    "type": "practice"
+  },
+  {
+    "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "matrix",
+    "type": "practice"
+  },
+  {
+    "name": "nth-prime",
+    "type": "practice"
+  },
+  {
+    "name": "nucleotide-count",
+    "type": "practice"
+  },
+  {
+    "name": "ocr-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "pangram",
+    "type": "practice"
+  },
+  {
+    "name": "perfect-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "phone-number",
+    "type": "practice"
+  },
+  {
+    "name": "prime-factors",
+    "type": "practice"
+  },
+  {
+    "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "proverb",
+    "type": "practice"
+  },
+  {
+    "name": "queen-attack",
+    "type": "practice"
+  },
+  {
+    "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
+    "type": "practice"
+  },
+  {
+    "name": "reverse-string",
+    "type": "practice"
+  },
+  {
+    "name": "rna-transcription",
+    "type": "practice"
+  },
+  {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
+    "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "saddle-points",
+    "type": "practice"
+  },
+  {
+    "name": "scrabble-score",
+    "type": "practice"
+  },
+  {
+    "name": "secret-handshake",
+    "type": "practice"
+  },
+  {
+    "name": "series",
+    "type": "practice"
+  },
+  {
+    "name": "sieve",
+    "type": "practice"
+  },
+  {
+    "name": "simple-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "space-age",
+    "type": "practice"
+  },
+  {
+    "name": "square-root",
+    "type": "practice"
+  },
+  {
+    "name": "strain",
+    "type": "practice"
+  },
+  {
+    "name": "sublist",
+    "type": "practice"
+  },
+  {
+    "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "transpose",
+    "type": "practice"
+  },
+  {
+    "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
+    "type": "practice"
+  },
+  {
+    "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "word-count",
+    "type": "practice"
+  }
+]

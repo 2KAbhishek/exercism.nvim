@@ -1,0 +1,262 @@
+[
+  {
+    "name": "acronym",
+    "type": "practice"
+  },
+  {
+    "name": "allergies",
+    "type": "practice"
+  },
+  {
+    "name": "anagram",
+    "type": "practice"
+  },
+  {
+    "name": "armstrong-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "atbash-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "basics-monitor-rush",
+    "type": "practice"
+  },
+  {
+    "name": "basics-transformation-csv",
+    "type": "practice"
+  },
+  {
+    "name": "basics-transformation-json",
+    "type": "practice"
+  },
+  {
+    "name": "basics-transformation-xml",
+    "type": "practice"
+  },
+  {
+    "name": "binary-search",
+    "type": "practice"
+  },
+  {
+    "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "calculator-service",
+    "type": "practice"
+  },
+  {
+    "name": "circular-buffer",
+    "type": "practice"
+  },
+  {
+    "name": "collatz-conjecture",
+    "type": "practice"
+  },
+  {
+    "name": "darts",
+    "type": "practice"
+  },
+  {
+    "name": "database-employee-onboarding",
+    "type": "practice"
+  },
+  {
+    "name": "database-large-expenses",
+    "type": "practice"
+  },
+  {
+    "name": "database-payment-audit",
+    "type": "practice"
+  },
+  {
+    "name": "database-payment-batches",
+    "type": "practice"
+  },
+  {
+    "name": "difference-of-squares",
+    "type": "practice"
+  },
+  {
+    "name": "dnd-character",
+    "type": "practice"
+  },
+  {
+    "name": "echo-service",
+    "type": "practice"
+  },
+  {
+    "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
+    "name": "error-handling",
+    "type": "practice"
+  },
+  {
+    "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "grains",
+    "type": "practice"
+  },
+  {
+    "name": "greeting-service",
+    "type": "practice"
+  },
+  {
+    "name": "hamming",
+    "type": "practice"
+  },
+  {
+    "name": "hello-world-service",
+    "type": "practice"
+  },
+  {
+    "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "http-billion-dollar-question",
+    "type": "practice"
+  },
+  {
+    "name": "http-cake-is-a-lie",
+    "type": "practice"
+  },
+  {
+    "name": "http-salary-converter",
+    "type": "practice"
+  },
+  {
+    "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "kindergarten-garden",
+    "type": "practice"
+  },
+  {
+    "name": "knapsack",
+    "type": "practice"
+  },
+  {
+    "name": "largest-series-product",
+    "type": "practice"
+  },
+  {
+    "name": "leap",
+    "type": "practice"
+  },
+  {
+    "name": "legacy-service-client",
+    "type": "practice"
+  },
+  {
+    "name": "linked-list",
+    "type": "practice"
+  },
+  {
+    "name": "list-ops",
+    "type": "practice"
+  },
+  {
+    "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "order-management",
+    "type": "practice"
+  },
+  {
+    "name": "pangram",
+    "type": "practice"
+  },
+  {
+    "name": "pascals-triangle",
+    "type": "practice"
+  },
+  {
+    "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
+    "type": "practice"
+  },
+  {
+    "name": "reverse-string",
+    "type": "practice"
+  },
+  {
+    "name": "rna-transcription",
+    "type": "practice"
+  },
+  {
+    "name": "robot-simulator",
+    "type": "practice"
+  },
+  {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
+    "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "saddle-points",
+    "type": "practice"
+  },
+  {
+    "name": "scrabble-score",
+    "type": "practice"
+  },
+  {
+    "name": "secret-handshake",
+    "type": "practice"
+  },
+  {
+    "name": "service-composition",
+    "type": "practice"
+  },
+  {
+    "name": "service-invocation",
+    "type": "practice"
+  },
+  {
+    "name": "sieve",
+    "type": "practice"
+  },
+  {
+    "name": "space-age",
+    "type": "practice"
+  },
+  {
+    "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "two-bucket",
+    "type": "practice"
+  },
+  {
+    "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "yacht",
+    "type": "practice"
+  }
+]

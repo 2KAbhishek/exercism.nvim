@@ -1,0 +1,182 @@
+[
+  {
+    "name": "anagram",
+    "type": "practice"
+  },
+  {
+    "name": "armstrong-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "atbash-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "binary-search",
+    "type": "practice"
+  },
+  {
+    "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "collatz-conjecture",
+    "type": "practice"
+  },
+  {
+    "name": "darts",
+    "type": "practice"
+  },
+  {
+    "name": "difference-of-squares",
+    "type": "practice"
+  },
+  {
+    "name": "dnd-character",
+    "type": "practice"
+  },
+  {
+    "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
+    "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "gigasecond",
+    "type": "practice"
+  },
+  {
+    "name": "grains",
+    "type": "practice"
+  },
+  {
+    "name": "hamming",
+    "type": "practice"
+  },
+  {
+    "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "largest-series-product",
+    "type": "practice"
+  },
+  {
+    "name": "leap",
+    "type": "practice"
+  },
+  {
+    "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "nucleotide-count",
+    "type": "practice"
+  },
+  {
+    "name": "pangram",
+    "type": "practice"
+  },
+  {
+    "name": "pascals-triangle",
+    "type": "practice"
+  },
+  {
+    "name": "perfect-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "phone-number",
+    "type": "practice"
+  },
+  {
+    "name": "prime-factors",
+    "type": "practice"
+  },
+  {
+    "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
+    "type": "practice"
+  },
+  {
+    "name": "reverse-string",
+    "type": "practice"
+  },
+  {
+    "name": "rna-transcription",
+    "type": "practice"
+  },
+  {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
+    "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "run-length-encoding",
+    "type": "practice"
+  },
+  {
+    "name": "scrabble-score",
+    "type": "practice"
+  },
+  {
+    "name": "secret-handshake",
+    "type": "practice"
+  },
+  {
+    "name": "series",
+    "type": "practice"
+  },
+  {
+    "name": "space-age",
+    "type": "practice"
+  },
+  {
+    "name": "square-root",
+    "type": "practice"
+  },
+  {
+    "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "yacht",
+    "type": "practice"
+  }
+]

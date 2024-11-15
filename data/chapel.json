@@ -1,0 +1,102 @@
+[
+  {
+    "name": "allergies",
+    "type": "practice"
+  },
+  {
+    "name": "anagram",
+    "type": "practice"
+  },
+  {
+    "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "circular-buffer",
+    "type": "practice"
+  },
+  {
+    "name": "collatz-conjecture",
+    "type": "practice"
+  },
+  {
+    "name": "darts",
+    "type": "practice"
+  },
+  {
+    "name": "diamond",
+    "type": "practice"
+  },
+  {
+    "name": "difference-of-squares",
+    "type": "practice"
+  },
+  {
+    "name": "dominoes",
+    "type": "practice"
+  },
+  {
+    "name": "forth",
+    "type": "practice"
+  },
+  {
+    "name": "gigasecond",
+    "type": "practice"
+  },
+  {
+    "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "leap",
+    "type": "practice"
+  },
+  {
+    "name": "meetup",
+    "type": "practice"
+  },
+  {
+    "name": "nucleotide-count",
+    "type": "practice"
+  },
+  {
+    "name": "pangram",
+    "type": "practice"
+  },
+  {
+    "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
+    "type": "practice"
+  },
+  {
+    "name": "rna-transcription",
+    "type": "practice"
+  },
+  {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
+    "name": "series",
+    "type": "practice"
+  },
+  {
+    "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "yacht",
+    "type": "practice"
+  }
+]

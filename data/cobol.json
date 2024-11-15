@@ -1,0 +1,186 @@
+[
+  {
+    "name": "acronym",
+    "type": "practice"
+  },
+  {
+    "name": "all-your-base",
+    "type": "practice"
+  },
+  {
+    "name": "allergies",
+    "type": "practice"
+  },
+  {
+    "name": "anagram",
+    "type": "practice"
+  },
+  {
+    "name": "armstrong-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "atbash-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "binary-search",
+    "type": "practice"
+  },
+  {
+    "name": "binary",
+    "type": "practice"
+  },
+  {
+    "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "circular-buffer",
+    "type": "practice"
+  },
+  {
+    "name": "collatz-conjecture",
+    "type": "practice"
+  },
+  {
+    "name": "complex-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "darts",
+    "type": "practice"
+  },
+  {
+    "name": "diamond",
+    "type": "practice"
+  },
+  {
+    "name": "difference-of-squares",
+    "type": "practice"
+  },
+  {
+    "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
+    "name": "grade-school",
+    "type": "practice"
+  },
+  {
+    "name": "hamming",
+    "type": "practice"
+  },
+  {
+    "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "knapsack",
+    "type": "practice"
+  },
+  {
+    "name": "leap",
+    "type": "practice"
+  },
+  {
+    "name": "luhn",
+    "type": "practice"
+  },
+  {
+    "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "meetup",
+    "type": "practice"
+  },
+  {
+    "name": "nucleotide-count",
+    "type": "practice"
+  },
+  {
+    "name": "pangram",
+    "type": "practice"
+  },
+  {
+    "name": "pascals-triangle",
+    "type": "practice"
+  },
+  {
+    "name": "pig-latin",
+    "type": "practice"
+  },
+  {
+    "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "queen-attack",
+    "type": "practice"
+  },
+  {
+    "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "reverse-string",
+    "type": "practice"
+  },
+  {
+    "name": "rna-transcription",
+    "type": "practice"
+  },
+  {
+    "name": "robot-simulator",
+    "type": "practice"
+  },
+  {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
+    "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "scrabble-score",
+    "type": "practice"
+  },
+  {
+    "name": "secret-handshake",
+    "type": "practice"
+  },
+  {
+    "name": "sieve",
+    "type": "practice"
+  },
+  {
+    "name": "space-age",
+    "type": "practice"
+  },
+  {
+    "name": "square-root",
+    "type": "practice"
+  },
+  {
+    "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "yacht",
+    "type": "practice"
+  }
+]

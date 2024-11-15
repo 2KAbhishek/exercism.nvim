@@ -1,0 +1,58 @@
+[
+  {
+    "name": "averager",
+    "type": "practice"
+  },
+  {
+    "name": "bowling",
+    "type": "practice"
+  },
+  {
+    "name": "dominoes",
+    "type": "practice"
+  },
+  {
+    "name": "eight-queens",
+    "type": "practice"
+  },
+  {
+    "name": "equilateral-triangle",
+    "type": "practice"
+  },
+  {
+    "name": "goldbach",
+    "type": "practice"
+  },
+  {
+    "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "minima",
+    "type": "practice"
+  },
+  {
+    "name": "missing-number",
+    "type": "practice"
+  },
+  {
+    "name": "prime-number",
+    "type": "practice"
+  },
+  {
+    "name": "propositional-logic",
+    "type": "practice"
+  },
+  {
+    "name": "quadratic-roots",
+    "type": "practice"
+  },
+  {
+    "name": "rtos-static-scheduling",
+    "type": "practice"
+  },
+  {
+    "name": "two-product-production-decision",
+    "type": "practice"
+  }
+]

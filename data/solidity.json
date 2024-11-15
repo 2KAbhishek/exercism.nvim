@@ -1,0 +1,14 @@
+[
+  {
+    "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "token-transfer",
+    "type": "practice"
+  }
+]
