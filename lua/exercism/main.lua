@@ -71,4 +71,14 @@ M.list_exercises = function(language)
     end
 end
 
+M.test_exercise = function()
+    local is_termim_present = vim.fn.exists(':STerm') == 2
+    local test_cmd = 'exercism test'
+    if is_termim_present then
+        vim.cmd('STerm ' .. test_cmd)
+    else
+        vim.cmd('term ' .. test_cmd)
+    end
+end
+
 return M
