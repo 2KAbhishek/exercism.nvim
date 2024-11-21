@@ -1,21 +1,20 @@
--- Define config structure here, setup function will override defaults with user config
----@class ExercismModule
+---@class exercism
 local M = {}
 
----@class ExercismConfig
+---@class exercism.config
 ---@field name string
 ---@field exercism_workspace string
 ---@field add_default_keybindings boolean
 local config = {
     name = 'World!',
-    exercism_workspace = vim.fn.expand('~/exercism'),
     add_default_keybindings = true,
+    exercism_workspace = '~/exercism',
 }
 
----@type ExercismConfig
+---@type exercism.config
 M.config = config
 
----@param args ExercismConfig?
+---@param args exercism.config
 M.setup = function(args)
     M.config = vim.tbl_deep_extend('force', M.config, args or {})
 end
