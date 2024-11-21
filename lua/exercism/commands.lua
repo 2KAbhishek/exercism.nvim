@@ -13,6 +13,10 @@ M.setup = function()
         main.test_exercise()
     end, {})
 
+    vim.api.nvim_create_user_command('ExercismSubmit', function(_)
+        main.submit_exercise()
+    end, {})
+
     if config.add_default_keybindings then
         local function add_keymap(keys, cmd, desc)
             vim.api.nvim_set_keymap('n', keys, cmd, { noremap = true, silent = true, desc = desc })
@@ -21,6 +25,7 @@ M.setup = function()
         if config.add_default_keybindings then
             add_keymap('<leader>exl', ':ExercismList<CR>', 'Exercism List')
             add_keymap('<leader>ext', ':ExercismTest<CR>', 'Exercism Test')
+            add_keymap('<leader>exs', ':ExercismSubmit<CR>', 'Exercism Submit')
         end
     end
 end
