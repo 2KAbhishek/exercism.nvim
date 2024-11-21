@@ -6,13 +6,13 @@ local M = {}
 ---@field exercism_workspace string
 ---@field add_default_keybindings boolean
 local config = {
-    name = 'World!',
-    add_default_keybindings = true,
     exercism_workspace = '~/exercism',
+    default_language = 'ruby',
+    add_default_keybindings = true,
     icons = {
         concept = '',
         practice = '',
-    }
+    },
 }
 
 ---@type exercism.config

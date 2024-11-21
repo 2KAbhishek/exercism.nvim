@@ -33,8 +33,7 @@ local function handle_selection(exercise_name, language)
     local exercise_dir = get_exercise_dir(exercise_name, language)
 
     if not Path:new(exercise_dir):exists() then
-        local download_cmd =
-            string.format('exercism download --track=%s --exercise=%s', language, exercise_name)
+        local download_cmd = string.format('exercism download --track=%s --exercise=%s', language, exercise_name)
 
         utils.show_notification(
             'Setting up exercise: ' .. exercise_name .. ' in ' .. language,
@@ -54,6 +53,9 @@ end
 
 ---@param language string
 M.list_exercises = function(language)
+    if language == '' or language == nil then
+        language = config.default_language
+    end
     local exercise_data = get_exercise_data(language)
 
     if #exercise_data > 0 then

@@ -19,7 +19,7 @@ M.setup = function()
         end
 
         if config.add_default_keybindings then
-            add_keymap('<leader>goe', ':ExercismList ruby<CR>', 'Exercism says hi')
+            add_keymap('<leader>exl', ':ExercismList<CR>', 'Exercism List')
             add_keymap('<leader>ext', ':ExercismTest<CR>', 'Exercism Test')
         end
     end
