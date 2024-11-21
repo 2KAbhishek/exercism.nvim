@@ -9,6 +9,10 @@ local config = {
     name = 'World!',
     add_default_keybindings = true,
     exercism_workspace = '~/exercism',
+    icons = {
+        concept = '',
+        practice = '',
+    }
 }
 
 ---@type exercism.config

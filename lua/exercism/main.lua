@@ -5,6 +5,11 @@ local config = require('exercism.config').config
 ---@class exercism.main
 local M = {}
 
+local type_icons_map = {
+    ['concept'] = config.icons.concept .. '  ',
+    ['practice'] = config.icons.practice .. '  ',
+}
+
 ---@param language string
 ---@return any
 local function get_exercise_data(language)
@@ -30,7 +35,7 @@ M.list_exercises = function(language)
         vim.ui.select(exercise_data, {
             prompt = 'Select Exercise (' .. language .. ')',
             format_item = function(exercise)
-                return exercise.name .. ' : ' .. exercise.type
+                return type_icons_map[exercise.type] .. exercise.name
             end,
         }, function(selected_exercise, _)
             if not selected_exercise then
