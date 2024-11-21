@@ -1,10 +1,11 @@
 local utils = require('utils')
 local Path = require('plenary.path')
-
-local M = {}
 local config = require('exercism.config').config
 
----@param language any
+---@class exercism.main
+local M = {}
+
+---@param language string
 ---@return any
 local function get_exercise_data(language)
     local script_path = debug.getinfo(1, 'S').source:sub(2)
@@ -20,7 +21,7 @@ M.list_exercises = function(language)
 
     if #exercise_data > 0 then
         vim.ui.select(exercise_data, {
-            prompt = 'Select Exercise',
+            prompt = 'Select Exercise (' .. language .. ')',
             format_item = function(exercise)
                 return exercise.name .. ' : ' .. exercise.type
             end,
@@ -28,7 +29,8 @@ M.list_exercises = function(language)
             if not selected_exercise then
                 return
             end
-            local exercise_dir = config.exercism_workspace .. '/' .. language .. '/' .. selected_exercise.name
+            local exercise_dir =
+                vim.fn.expand(config.exercism_workspace .. '/' .. language .. '/' .. selected_exercise.name)
 
             if not Path:new(exercise_dir):exists() then
                 local exercism_cmd =

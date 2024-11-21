@@ -1,4 +1,4 @@
-local exercism_module = require('exercism.module')
+local main = require('exercism.main')
 local config = require('exercism.config').config
 
 local M = {}
@@ -6,7 +6,7 @@ local M = {}
 M.setup = function()
     vim.api.nvim_create_user_command('ExercismList', function(opts)
         local language = vim.split(opts.args, ' ')[1]
-        exercism_module.list_exercises(language)
+        main.list_exercises(language)
     end, { nargs = '?' })
 
     if config.add_default_keybindings then
@@ -15,7 +15,7 @@ M.setup = function()
         end
 
         if config.add_default_keybindings then
-            add_keymap('<leader>goe', ':ExercismList lua<CR>', 'Exercism says hi')
+            add_keymap('<leader>goe', ':ExercismList ruby<CR>', 'Exercism says hi')
         end
     end
 end
