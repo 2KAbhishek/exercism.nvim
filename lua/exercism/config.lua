@@ -2,9 +2,10 @@
 local M = {}
 
 ---@class exercism.config
----@field name string
 ---@field exercism_workspace string
+---@field default_language string
 ---@field add_default_keybindings boolean
+---@field icons table<string, string>
 local config = {
     exercism_workspace = '~/exercism',
     default_language = 'ruby',
