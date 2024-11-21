@@ -10,11 +10,15 @@ local type_icons_map = {
     ['practice'] = config.icons.practice .. '  ',
 }
 
+local function get_plugin_path()
+    local script_path = debug.getinfo(1, 'S').source:sub(2)
+    return vim.fn.fnamemodify(script_path, ':h:h:h')
+end
+
 ---@param language string
 ---@return any
 local function get_exercise_data(language)
-    local script_path = debug.getinfo(1, 'S').source:sub(2)
-    local plugin_path = vim.fn.fnamemodify(script_path, ':h:h:h')
+    local plugin_path = get_plugin_path()
     local exercise_file = plugin_path .. '/data/' .. language .. '.json'
     local exercise_data = vim.fn.json_decode(vim.fn.readfile(exercise_file))
     return exercise_data
@@ -49,6 +53,22 @@ local function handle_selection(exercise_name, language)
     else
         utils.open_dir(exercise_dir)
     end
+end
+
+M.list_languages = function()
+    local plugin_path = get_plugin_path()
+    local language_files = vim.fn.glob(plugin_path .. '/data/*.json', false, true)
+    local languages = vim.tbl_map(function(file)
+        return vim.fn.fnamemodify(file, ':t:r')
+    end, language_files)
+
+    vim.ui.select(languages, {
+        prompt = 'Select Language',
+    }, function(selected_language)
+        if selected_language then
+            M.list_exercises(selected_language)
+        end
+    end)
 end
 
 ---@param language string

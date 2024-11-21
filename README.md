@@ -53,11 +53,13 @@ exercism.nvim is a neovim plugin that integrates exercism.io into your neovim wo
 {
     '2kabhishek/exercism.nvim',
     cmd = {
+        'ExercismLanguages',
         'ExercismList',
         'ExercismSubmit',
         'ExercismTest',
     },
     keys = {
+        '<leader>exa',
         '<leader>exl',
         '<leader>exs',
         '<leader>ext',

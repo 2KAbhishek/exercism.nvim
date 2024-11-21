@@ -4,6 +4,10 @@ local config = require('exercism.config').config
 local M = {}
 
 M.setup = function()
+    vim.api.nvim_create_user_command('ExercismLanguages', function(_)
+        main.list_languages()
+    end, {})
+
     vim.api.nvim_create_user_command('ExercismList', function(opts)
         local language = vim.split(opts.args, ' ')[1]
         main.list_exercises(language)
@@ -23,6 +27,7 @@ M.setup = function()
         end
 
         if config.add_default_keybindings then
+            add_keymap('<leader>exa', ':ExercismLanguages<CR>', 'All Exercism Languages')
             add_keymap('<leader>exl', ':ExercismList<CR>', 'Exercism List')
             add_keymap('<leader>ext', ':ExercismTest<CR>', 'Exercism Test')
             add_keymap('<leader>exs', ':ExercismSubmit<CR>', 'Exercism Submit')
