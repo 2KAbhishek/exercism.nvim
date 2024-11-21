@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/exercism.nvim/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/exercism.nvim?style=flat&color=e06c75&label="> </a>
 
-<h3>Ready to go Neovim exercism 🏗️✈️</h3>
+<h3>Exercism Meets Neovim 💪🧠</h3>
 
 <figure>
   <img src="doc/images/screenshot.png" alt="exercism.nvim in action">
@@ -30,7 +30,7 @@
 
 </div>
 
-exercism.nvim is a neovim plugin that allows neovim users to `<action>`.
+exercism.nvim is a neovim plugin that integrates exercism.io into your neovim workflow.
 
 ## ✨ Features
 
@@ -52,11 +52,23 @@ exercism.nvim is a neovim plugin that allows neovim users to `<action>`.
 -- Lazy
 {
     '2kabhishek/exercism.nvim',
-    cmd = 'ExercismHello',
+    cmd = {
+        'ExercismList',
+        'ExercismSubmit',
+        'ExercismTest',
+    },
+    keys = {
+        '<leader>exl',
+        '<leader>exs',
+        '<leader>ext',
+    },
+    dependencies = {
+        '2kabhishek/utils.nvim', -- required
+        'stevearc/dressing.nvim', -- optional, highly recommended, for fuzzy exercise finding
+        '2kabhishek/termim.nvim', -- optional, for running tests
+    },
     -- Add your custom configs here, keep it blank for default configs (required)
     opts = {},
-    -- Use this for local development
-    -- dir = '~/path-to/exercism.nvim',
 },
 ```
 
