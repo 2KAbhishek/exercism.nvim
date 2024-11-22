@@ -45,8 +45,8 @@ exercism.nvim integrates exercism into Neovim by providing a set of commands and
 
 - [exercism-cli](https://exercism.io/cli) installed and configured
   - Make sure to login with `exercism configure`
-- [tmux-tea](https://github.com/2kabhishek/tmux-tea) (optional, recommended) if you want to use individual sessions for each repository
-  - I also recommend enabling the default command to be nvim with `set -g @tea-default-command 'nvim'` for a better experience
+- [tmux-tea](https://github.com/2kabhishek/tmux-tea) (optional, recommended) for separate tmux sessions for each exercise
+  - Use `set -g @tea-default-command 'nvim'` for a better experience
 
 ### 💻 Installation
 
