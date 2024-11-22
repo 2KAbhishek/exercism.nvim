@@ -30,21 +30,23 @@
 
 </div>
 
-exercism.nvim is a neovim plugin that integrates exercism.io into your neovim workflow.
+exercism.nvim integrates exercism into Neovim by providing a set of commands and keybindngs to help you solve exercises faster.
 
 ## ✨ Features
 
-- Includes a ready to go neovim plugin exercism
-- Comes with a lint and test CI action
-- Includes a Github action to auto generate vimdocs
-- Comes with a ready to go README exercism
-- Works with [mkrepo](https://github.com/2kabhishek/mkrepo)
+- Browse and choose exercises from the entire exercism library from within Neovim
+- Quickly test and submit your solutions
+- Review your existing solution for an exercise
+- Simple keybindings and commands to make your workflow faster
 
 ## ⚡ Setup
 
 ### ⚙️ Requirements
 
-- Latest version of `neovim`
+- [exercism-cli](https://exercism.io/cli) installed and configured
+  - Make sure to login with `exercism configure`
+- [tmux-tea](https://github.com/2kabhishek/tmux-tea) (optional, recommended) if you want to use individual sessions for each repository
+  - I also recommend enabling the default command to be nvim with `set -g @tea-default-command 'nvim'` for a better experience
 
 ### 💻 Installation
 
@@ -65,9 +67,9 @@ exercism.nvim is a neovim plugin that integrates exercism.io into your neovim wo
         '<leader>ext',
     },
     dependencies = {
-        '2kabhishek/utils.nvim', -- required
-        'stevearc/dressing.nvim', -- optional, highly recommended, for fuzzy exercise finding
-        '2kabhishek/termim.nvim', -- optional, for running tests
+        '2kabhishek/utils.nvim', -- required, for utility functions
+        'stevearc/dressing.nvim', -- optional, highly recommended, for fuzzy select UI
+        '2kabhishek/termim.nvim', -- optional, better UX for running tests
     },
     -- Add your custom configs here, keep it blank for default configs (required)
     opts = {},
@@ -76,26 +78,17 @@ exercism.nvim is a neovim plugin that integrates exercism.io into your neovim wo
 
 ## 🚀 Usage
 
-1. Fork the `exercism.nvim` repo
-2. Update the plugin name, file names etc, change `exercism` to `your-plugin-name`
-3. Add the code required for your plugin,
-   - Code entrypoint is [exercism.lua](./lua/exercism.lua)
-   - Add user configs to [config.lua](./lua/exercism/config.lua)
-   - For adding commands and keybindngs use [commands.lua](./lua/exercism/commands.lua)
-   - Separate plugin logic into modules under [modules](./lua/exercism/) dir
-4. Add test code to the [tests](./tests/) directory
-5. Update the README
-6. Tweak the [docs action](./.github/workflows/docs.yml) file to reflect your username, commit message and plugin name
-
-   - Generating vimdocs needs write access to actions (repo settings > actions > general > workflow permissions)
-
 ### Configuration
-
-exercism.nvim can be configured using the following options:
 
 ```lua
 exercism.setup({
-    name = 'exercism.nvim', -- Name to be greeted, 'World' by default
+    exercism_workspace = '~/exercism', -- Default workspace for exercism exercises
+    default_language = 'ruby', -- Default language for exercise list
+    add_default_keybindings = true, -- Whether to add default keybindings
+    icons = {
+        concept = '', -- Icon for concept exercises
+        practice = '', -- Icon for practice exercises
+    },
 })
 ```
 
@@ -103,15 +96,21 @@ exercism.setup({
 
 `exercism.nvim` adds the following commands:
 
-- `ExercismHello`: Shows a hello message with the confugred name.
+- `ExercismLanguages`: Lists all available languages, select one to list exercises.
+- `ExercismList [language]`: Lists exercises for the specified language, if not specified, uses the `default_language`.
+- `ExercismTest`: Runs tests for the current exercise.
+- `ExercismSubmit`: Submits the current exercise.
 
 ### Keybindings
 
-It is recommended to use:
+Here are the default keybindings:
 
-- `<leader>th,` for `ExercismHello`
+- `<leader>exa` for `ExercismLanguages`
+- `<leader>exl` for `ExercismList`
+- `<leader>ext` for `ExercismTest`
+- `<leader>exs` for `ExercismSubmit`
 
-> NOTE: By default there are no configured keybindings.
+> You can change these by setting `add_default_keybindings` to `false` and adding your own keybindings.
 
 ### Help
 
@@ -119,37 +118,27 @@ Run `:help exercism.txt` for more details.
 
 ## 🏗️ What's Next
 
-Planning to add `<feature/module>`.
-
 ### ✅ To-Do
 
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
+- [ ] Add tests
 
 ## ⛅ Behind The Code
 
 ### 🌈 Inspiration
 
-exercism.nvim was inspired by [nvim-plugin-exercism](https://github.com/ellisonleao/nvim-plugin-exercism), I added some changes on top to make setting up a new plugin faster.
+I really like exercism but the back and forth between the browser and the terminal was a bit annoying. So I decided to integrate it with Neovim.
 
 ### 💡 Challenges/Learnings
 
-- The main challenges were `<issue/difficulty>`
-- I learned about `<learning/accomplishment>`
-
-### 🧰 Tooling
-
-- [dots2k](https://github.com/2kabhishek/dots2k) — Dev Environment
-- [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
-- [sway2k](https://github.com/2kabhishek/sway2k) — Desktop Environment
-- [qute2k](https://github.com/2kabhishek/qute2k) — Personalized Browser
+- I build [exercism-fetcher](https://github.com/2kabhishek/exercism-fetcher) to fetch exercises from exercism's github repos.
+- Reused knowledge from octohub.nvim, not too many challenges here.
 
 ### 🔍 More Info
 
-- [nerdy.nvim](https://github.com/2kabhishek/nerdy.nevim) — Find nerd glyphs easily
+- [octohub.nvim](https://github.com/2kabhishek/octohub.nvim) — GitHub Repos in Neovim
+- [nerdy.nvim](https://github.com/2kabhishek/nerdy.nvim) — Find nerd glyphs easily
 - [tdo.nvim](https://github.com/2KAbhishek/tdo.nvim) — Fast and simple notes in Neovim
-- [termim.nvim](https://github.com/2kabhishek/termim,nvim) — Neovim terminal improved
+- [termim.nvim](https://github.com/2kabhishek/termim.nvim) — Neovim terminal improved
 
 <hr>
 
