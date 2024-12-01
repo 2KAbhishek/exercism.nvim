@@ -108,8 +108,7 @@ M.submit_exercise = function()
     utils.async_shell_execute(submit_cmd, function(result)
         if result then
             vim.schedule(function()
-                local output = type(result) == 'table' and table.concat(result, '\n') or tostring(result)
-                local message = string.format('Exercise submitted successfully!\n%s', vim.trim(output))
+                local message = string.format('Exercise submitted successfully!\n%s', vim.trim(result))
                 utils.show_notification(message, vim.log.levels.INFO, 'Exercism')
             end)
         end
