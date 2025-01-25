@@ -12,6 +12,10 @@
     "type": "practice"
   },
   {
+    "name": "atbash-cipher",
+    "type": "practice"
+  },
+  {
     "name": "bank-account",
     "type": "practice"
   },
@@ -64,6 +68,10 @@
     "type": "practice"
   },
   {
+    "name": "kindergarten-garden",
+    "type": "practice"
+  },
+  {
     "name": "knapsack",
     "type": "practice"
   },
@@ -104,6 +112,10 @@
     "type": "practice"
   },
   {
+    "name": "phone-number",
+    "type": "practice"
+  },
+  {
     "name": "raindrops",
     "type": "practice"
   },
@@ -124,11 +136,19 @@
     "type": "practice"
   },
   {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
     "name": "rotational-cipher",
     "type": "practice"
   },
   {
     "name": "run-length-encoding",
+    "type": "practice"
+  },
+  {
+    "name": "scrabble-score",
     "type": "practice"
   },
   {

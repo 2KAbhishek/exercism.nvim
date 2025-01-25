@@ -32,6 +32,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "collatz-conjecture",
     "type": "practice"
   },
@@ -56,6 +60,10 @@
     "type": "practice"
   },
   {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
     "name": "grains",
     "type": "practice"
   },
@@ -69,6 +77,10 @@
   },
   {
     "name": "hexadecimal",
+    "type": "practice"
+  },
+  {
+    "name": "house",
     "type": "practice"
   },
   {
@@ -148,6 +160,10 @@
     "type": "practice"
   },
   {
+    "name": "proverb",
+    "type": "practice"
+  },
+  {
     "name": "pythagorean-triplet",
     "type": "practice"
   },
@@ -221,6 +237,10 @@
   },
   {
     "name": "trinary",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
     "type": "practice"
   },
   {

@@ -108,6 +108,10 @@
     "type": "practice"
   },
   {
+    "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
     "name": "etl",
     "type": "practice"
   },
@@ -216,6 +220,10 @@
     "type": "practice"
   },
   {
+    "name": "proverb",
+    "type": "practice"
+  },
+  {
     "name": "pythagorean-triplet",
     "type": "practice"
   },
@@ -257,6 +265,10 @@
   },
   {
     "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "run-length-encoding",
     "type": "practice"
   },
   {
@@ -313,6 +325,10 @@
   },
   {
     "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "variable-length-quantity",
     "type": "practice"
   },
   {

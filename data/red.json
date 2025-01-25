@@ -16,7 +16,19 @@
     "type": "practice"
   },
   {
+    "name": "atbash-cipher",
+    "type": "practice"
+  },
+  {
     "name": "binary-search",
+    "type": "practice"
+  },
+  {
+    "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "bottle-song",
     "type": "practice"
   },
   {
@@ -84,11 +96,23 @@
     "type": "practice"
   },
   {
+    "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "nth-prime",
+    "type": "practice"
+  },
+  {
     "name": "nucleotide-count",
     "type": "practice"
   },
   {
     "name": "pangram",
+    "type": "practice"
+  },
+  {
+    "name": "phone-number",
     "type": "practice"
   },
   {

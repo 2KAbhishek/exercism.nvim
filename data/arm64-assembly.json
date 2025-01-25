@@ -1,5 +1,13 @@
 [
   {
+    "name": "acronym",
+    "type": "practice"
+  },
+  {
+    "name": "affine-cipher",
+    "type": "practice"
+  },
+  {
     "name": "all-your-base",
     "type": "practice"
   },
@@ -20,7 +28,19 @@
     "type": "practice"
   },
   {
+    "name": "book-store",
+    "type": "practice"
+  },
+  {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "collatz-conjecture",
+    "type": "practice"
+  },
+  {
+    "name": "darts",
     "type": "practice"
   },
   {
@@ -32,7 +52,15 @@
     "type": "practice"
   },
   {
+    "name": "dominoes",
+    "type": "practice"
+  },
+  {
     "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
+    "name": "food-chain",
     "type": "practice"
   },
   {
@@ -48,11 +76,27 @@
     "type": "practice"
   },
   {
+    "name": "house",
+    "type": "practice"
+  },
+  {
     "name": "isbn-verifier",
     "type": "practice"
   },
   {
     "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "kindergarten-garden",
+    "type": "practice"
+  },
+  {
+    "name": "knapsack",
+    "type": "practice"
+  },
+  {
+    "name": "largest-series-product",
     "type": "practice"
   },
   {
@@ -68,7 +112,19 @@
     "type": "practice"
   },
   {
+    "name": "meetup",
+    "type": "practice"
+  },
+  {
     "name": "micro-blog",
+    "type": "practice"
+  },
+  {
+    "name": "minesweeper",
+    "type": "practice"
+  },
+  {
+    "name": "nth-prime",
     "type": "practice"
   },
   {
@@ -84,11 +140,27 @@
     "type": "practice"
   },
   {
+    "name": "perfect-numbers",
+    "type": "practice"
+  },
+  {
     "name": "phone-number",
     "type": "practice"
   },
   {
+    "name": "pig-latin",
+    "type": "practice"
+  },
+  {
     "name": "prime-factors",
+    "type": "practice"
+  },
+  {
+    "name": "proverb",
+    "type": "practice"
+  },
+  {
+    "name": "pythagorean-triplet",
     "type": "practice"
   },
   {
@@ -104,6 +176,18 @@
     "type": "practice"
   },
   {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
+    "type": "practice"
+  },
+  {
     "name": "reverse-string",
     "type": "practice"
   },
@@ -112,7 +196,15 @@
     "type": "practice"
   },
   {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
     "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "run-length-encoding",
     "type": "practice"
   },
   {
@@ -120,7 +212,23 @@
     "type": "practice"
   },
   {
+    "name": "secret-handshake",
+    "type": "practice"
+  },
+  {
+    "name": "sieve",
+    "type": "practice"
+  },
+  {
+    "name": "space-age",
+    "type": "practice"
+  },
+  {
     "name": "square-root",
+    "type": "practice"
+  },
+  {
+    "name": "state-of-tic-tac-toe",
     "type": "practice"
   },
   {
@@ -132,7 +240,15 @@
     "type": "practice"
   },
   {
+    "name": "twelve-days",
+    "type": "practice"
+  },
+  {
     "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "variable-length-quantity",
     "type": "practice"
   },
   {

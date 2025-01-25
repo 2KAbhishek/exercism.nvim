@@ -124,6 +124,10 @@
     "type": "practice"
   },
   {
+    "name": "darts",
+    "type": "practice"
+  },
+  {
     "name": "diamond",
     "type": "practice"
   },
@@ -132,7 +136,15 @@
     "type": "practice"
   },
   {
+    "name": "dnd-character",
+    "type": "practice"
+  },
+  {
     "name": "dominoes",
+    "type": "practice"
+  },
+  {
+    "name": "eliuds-eggs",
     "type": "practice"
   },
   {
@@ -141,6 +153,14 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -172,6 +192,10 @@
     "type": "practice"
   },
   {
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
     "name": "isbn-verifier",
     "type": "practice"
   },
@@ -180,7 +204,15 @@
     "type": "practice"
   },
   {
+    "name": "killer-sudoku-helper",
+    "type": "practice"
+  },
+  {
     "name": "kindergarten-garden",
+    "type": "practice"
+  },
+  {
+    "name": "knapsack",
     "type": "practice"
   },
   {
@@ -201,6 +233,10 @@
   },
   {
     "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "matrix",
     "type": "practice"
   },
   {
@@ -264,11 +300,27 @@
     "type": "practice"
   },
   {
+    "name": "pythagorean-triplet",
+    "type": "practice"
+  },
+  {
     "name": "queen-attack",
     "type": "practice"
   },
   {
     "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
     "type": "practice"
   },
   {
@@ -300,6 +352,10 @@
     "type": "practice"
   },
   {
+    "name": "saddle-points",
+    "type": "practice"
+  },
+  {
     "name": "say",
     "type": "practice"
   },
@@ -320,11 +376,23 @@
     "type": "practice"
   },
   {
+    "name": "simple-cipher",
+    "type": "practice"
+  },
+  {
     "name": "space-age",
     "type": "practice"
   },
   {
     "name": "spiral-matrix",
+    "type": "practice"
+  },
+  {
+    "name": "square-root",
+    "type": "practice"
+  },
+  {
+    "name": "state-of-tic-tac-toe",
     "type": "practice"
   },
   {
@@ -340,11 +408,19 @@
     "type": "practice"
   },
   {
+    "name": "transpose",
+    "type": "practice"
+  },
+  {
     "name": "triangle",
     "type": "practice"
   },
   {
     "name": "trinary",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
     "type": "practice"
   },
   {
@@ -361,6 +437,10 @@
   },
   {
     "name": "yacht",
+    "type": "practice"
+  },
+  {
+    "name": "zebra-puzzle",
     "type": "practice"
   },
   {

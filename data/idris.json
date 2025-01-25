@@ -48,6 +48,10 @@
     "type": "practice"
   },
   {
+    "name": "isbn-verifier",
+    "type": "practice"
+  },
+  {
     "name": "isogram",
     "type": "practice"
   },

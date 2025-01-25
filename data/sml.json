@@ -32,11 +32,19 @@
     "type": "practice"
   },
   {
+    "name": "binary-search",
+    "type": "practice"
+  },
+  {
     "name": "binary",
     "type": "practice"
   },
   {
     "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "circular-buffer",
     "type": "practice"
   },
   {
@@ -96,6 +104,10 @@
     "type": "practice"
   },
   {
+    "name": "largest-series-product",
+    "type": "practice"
+  },
+  {
     "name": "leap",
     "type": "practice"
   },
@@ -117,6 +129,10 @@
   },
   {
     "name": "nth-prime",
+    "type": "practice"
+  },
+  {
+    "name": "nucleotide-count",
     "type": "practice"
   },
   {
@@ -164,6 +180,10 @@
     "type": "practice"
   },
   {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
     "name": "resistor-color",
     "type": "practice"
   },
@@ -188,11 +208,19 @@
     "type": "practice"
   },
   {
+    "name": "say",
+    "type": "practice"
+  },
+  {
     "name": "scrabble-score",
     "type": "practice"
   },
   {
     "name": "secret-handshake",
+    "type": "practice"
+  },
+  {
+    "name": "sieve",
     "type": "practice"
   },
   {

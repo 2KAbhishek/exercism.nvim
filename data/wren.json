@@ -152,6 +152,10 @@
     "type": "practice"
   },
   {
+    "name": "house",
+    "type": "practice"
+  },
+  {
     "name": "isbn-verifier",
     "type": "practice"
   },
@@ -205,6 +209,10 @@
   },
   {
     "name": "nucleotide-count",
+    "type": "practice"
+  },
+  {
+    "name": "palindrome-products",
     "type": "practice"
   },
   {

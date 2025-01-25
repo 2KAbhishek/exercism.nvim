@@ -116,6 +116,10 @@
     "type": "practice"
   },
   {
+    "name": "pythagorean-triplet",
+    "type": "practice"
+  },
+  {
     "name": "queen-attack",
     "type": "practice"
   },

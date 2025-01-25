@@ -8,11 +8,15 @@
     "type": "concept"
   },
   {
+    "name": "calculator-conundrum",
+    "type": "concept"
+  },
+  {
     "name": "cars-assemble",
     "type": "concept"
   },
   {
-    "name": "chrono-realms-time-tree",
+    "name": "chrono-realms-chrono-chain",
     "type": "concept"
   },
   {
@@ -64,10 +68,6 @@
     "type": "concept"
   },
   {
-    "name": "the-farm",
-    "type": "concept"
-  },
-  {
     "name": "the-realm-of-echoes",
     "type": "concept"
   },
@@ -101,6 +101,10 @@
   },
   {
     "name": "beer-song",
+    "type": "practice"
+  },
+  {
+    "name": "binary-search-tree",
     "type": "practice"
   },
   {
@@ -140,6 +144,10 @@
     "type": "practice"
   },
   {
+    "name": "etl",
+    "type": "practice"
+  },
+  {
     "name": "grains",
     "type": "practice"
   },
@@ -153,6 +161,10 @@
   },
   {
     "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "isbn-verifier",
     "type": "practice"
   },
   {
@@ -240,6 +252,10 @@
     "type": "practice"
   },
   {
+    "name": "resistor-color",
+    "type": "practice"
+  },
+  {
     "name": "reverse-string",
     "type": "practice"
   },
@@ -304,11 +320,27 @@
     "type": "practice"
   },
   {
+    "name": "variable-length-quantity",
+    "type": "practice"
+  },
+  {
+    "name": "word-count",
+    "type": "practice"
+  },
+  {
+    "name": "word-search",
+    "type": "practice"
+  },
+  {
     "name": "wordy",
     "type": "practice"
   },
   {
     "name": "yacht",
+    "type": "practice"
+  },
+  {
+    "name": "zipper",
     "type": "practice"
   }
 ]

@@ -24,6 +24,10 @@
     "type": "practice"
   },
   {
+    "name": "acronym",
+    "type": "practice"
+  },
+  {
     "name": "all-your-base",
     "type": "practice"
   },
@@ -33,6 +37,10 @@
   },
   {
     "name": "anagram",
+    "type": "practice"
+  },
+  {
+    "name": "armstrong-numbers",
     "type": "practice"
   },
   {
@@ -64,7 +72,15 @@
     "type": "practice"
   },
   {
+    "name": "circular-buffer",
+    "type": "practice"
+  },
+  {
     "name": "clock",
+    "type": "practice"
+  },
+  {
+    "name": "collatz-conjecture",
     "type": "practice"
   },
   {
@@ -81,6 +97,14 @@
   },
   {
     "name": "difference-of-squares",
+    "type": "practice"
+  },
+  {
+    "name": "dnd-character",
+    "type": "practice"
+  },
+  {
+    "name": "eliuds-eggs",
     "type": "practice"
   },
   {
@@ -120,6 +144,10 @@
     "type": "practice"
   },
   {
+    "name": "isogram",
+    "type": "practice"
+  },
+  {
     "name": "kindergarten-garden",
     "type": "practice"
   },
@@ -141,6 +169,10 @@
   },
   {
     "name": "luhn",
+    "type": "practice"
+  },
+  {
+    "name": "matching-brackets",
     "type": "practice"
   },
   {
@@ -169,6 +201,10 @@
   },
   {
     "name": "palindrome-products",
+    "type": "practice"
+  },
+  {
+    "name": "pangram",
     "type": "practice"
   },
   {
@@ -208,6 +244,10 @@
     "type": "practice"
   },
   {
+    "name": "reverse-string",
+    "type": "practice"
+  },
+  {
     "name": "rna-transcription",
     "type": "practice"
   },
@@ -221,6 +261,14 @@
   },
   {
     "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
+    "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "run-length-encoding",
     "type": "practice"
   },
   {
@@ -260,6 +308,10 @@
     "type": "practice"
   },
   {
+    "name": "spiral-matrix",
+    "type": "practice"
+  },
+  {
     "name": "strain",
     "type": "practice"
   },
@@ -284,6 +336,10 @@
     "type": "practice"
   },
   {
+    "name": "two-bucket",
+    "type": "practice"
+  },
+  {
     "name": "two-fer",
     "type": "practice"
   },
@@ -293,6 +349,10 @@
   },
   {
     "name": "wordy",
+    "type": "practice"
+  },
+  {
+    "name": "yacht",
     "type": "practice"
   }
 ]

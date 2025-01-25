@@ -8,6 +8,10 @@
     "type": "practice"
   },
   {
+    "name": "affine-cipher",
+    "type": "practice"
+  },
+  {
     "name": "all-your-base",
     "type": "practice"
   },
@@ -32,6 +36,14 @@
     "type": "practice"
   },
   {
+    "name": "book-store",
+    "type": "practice"
+  },
+  {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "collatz-conjecture",
     "type": "practice"
   },
@@ -41,6 +53,10 @@
   },
   {
     "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
+    "name": "food-chain",
     "type": "practice"
   },
   {
@@ -56,11 +72,19 @@
     "type": "practice"
   },
   {
+    "name": "house",
+    "type": "practice"
+  },
+  {
     "name": "isbn-verifier",
     "type": "practice"
   },
   {
     "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "kindergarten-garden",
     "type": "practice"
   },
   {
@@ -80,7 +104,15 @@
     "type": "practice"
   },
   {
+    "name": "luhn",
+    "type": "practice"
+  },
+  {
     "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "meetup",
     "type": "practice"
   },
   {
@@ -96,11 +128,27 @@
     "type": "practice"
   },
   {
+    "name": "perfect-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "phone-number",
+    "type": "practice"
+  },
+  {
+    "name": "pig-latin",
+    "type": "practice"
+  },
+  {
     "name": "prime-factors",
     "type": "practice"
   },
   {
     "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "proverb",
     "type": "practice"
   },
   {
@@ -140,6 +188,10 @@
     "type": "practice"
   },
   {
+    "name": "scrabble-score",
+    "type": "practice"
+  },
+  {
     "name": "space-age",
     "type": "practice"
   },
@@ -148,7 +200,15 @@
     "type": "practice"
   },
   {
+    "name": "state-of-tic-tac-toe",
+    "type": "practice"
+  },
+  {
     "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
     "type": "practice"
   },
   {

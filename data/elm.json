@@ -16,6 +16,10 @@
     "type": "concept"
   },
   {
+    "name": "githup-api",
+    "type": "concept"
+  },
+  {
     "name": "go",
     "type": "concept"
   },

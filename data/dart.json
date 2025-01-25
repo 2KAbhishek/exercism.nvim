@@ -1,17 +1,5 @@
 [
   {
-    "name": "futures",
-    "type": "concept"
-  },
-  {
-    "name": "numbers",
-    "type": "concept"
-  },
-  {
-    "name": "strings",
-    "type": "concept"
-  },
-  {
     "name": "acronym",
     "type": "practice"
   },

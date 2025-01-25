@@ -36,6 +36,10 @@
     "type": "practice"
   },
   {
+    "name": "leap",
+    "type": "practice"
+  },
+  {
     "name": "nth-prime",
     "type": "practice"
   },

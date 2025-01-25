@@ -1,5 +1,9 @@
 [
   {
+    "name": "acronym",
+    "type": "practice"
+  },
+  {
     "name": "anagram",
     "type": "practice"
   },
@@ -17,6 +21,14 @@
   },
   {
     "name": "bob",
+    "type": "practice"
+  },
+  {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
+    "name": "clock",
     "type": "practice"
   },
   {
@@ -48,6 +60,10 @@
     "type": "practice"
   },
   {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
     "name": "gigasecond",
     "type": "practice"
   },
@@ -68,7 +84,19 @@
     "type": "practice"
   },
   {
+    "name": "house",
+    "type": "practice"
+  },
+  {
+    "name": "isbn-verifier",
+    "type": "practice"
+  },
+  {
     "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "kindergarten-garden",
     "type": "practice"
   },
   {
@@ -80,7 +108,19 @@
     "type": "practice"
   },
   {
+    "name": "luhn",
+    "type": "practice"
+  },
+  {
     "name": "matching-brackets",
+    "type": "practice"
+  },
+  {
+    "name": "matrix",
+    "type": "practice"
+  },
+  {
+    "name": "nth-prime",
     "type": "practice"
   },
   {
@@ -109,6 +149,14 @@
   },
   {
     "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "proverb",
+    "type": "practice"
+  },
+  {
+    "name": "queen-attack",
     "type": "practice"
   },
   {
@@ -156,6 +204,10 @@
     "type": "practice"
   },
   {
+    "name": "sieve",
+    "type": "practice"
+  },
+  {
     "name": "space-age",
     "type": "practice"
   },
@@ -168,11 +220,23 @@
     "type": "practice"
   },
   {
+    "name": "transpose",
+    "type": "practice"
+  },
+  {
     "name": "triangle",
     "type": "practice"
   },
   {
+    "name": "twelve-days",
+    "type": "practice"
+  },
+  {
     "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "word-count",
     "type": "practice"
   },
   {

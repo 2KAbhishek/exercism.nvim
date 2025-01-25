@@ -84,6 +84,10 @@
     "type": "practice"
   },
   {
+    "name": "armstrong-numbers",
+    "type": "practice"
+  },
+  {
     "name": "atbash-cipher",
     "type": "practice"
   },
@@ -137,6 +141,10 @@
   },
   {
     "name": "custom-set",
+    "type": "practice"
+  },
+  {
+    "name": "darts",
     "type": "practice"
   },
   {

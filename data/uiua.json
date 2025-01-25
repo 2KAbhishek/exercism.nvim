@@ -1,9 +1,5 @@
 [
   {
-    "name": "accumulate",
-    "type": "practice"
-  },
-  {
     "name": "acronym",
     "type": "practice"
   },
@@ -40,19 +36,11 @@
     "type": "practice"
   },
   {
-    "name": "book-store",
-    "type": "practice"
-  },
-  {
-    "name": "bowling",
+    "name": "bottle-song",
     "type": "practice"
   },
   {
     "name": "change",
-    "type": "practice"
-  },
-  {
-    "name": "circular-buffer",
     "type": "practice"
   },
   {
@@ -64,19 +52,11 @@
     "type": "practice"
   },
   {
-    "name": "complex-numbers",
-    "type": "practice"
-  },
-  {
     "name": "connect",
     "type": "practice"
   },
   {
     "name": "crypto-square",
-    "type": "practice"
-  },
-  {
-    "name": "custom-set",
     "type": "practice"
   },
   {
@@ -92,6 +72,14 @@
     "type": "practice"
   },
   {
+    "name": "diffie-hellman",
+    "type": "practice"
+  },
+  {
+    "name": "dnd-character",
+    "type": "practice"
+  },
+  {
     "name": "dominoes",
     "type": "practice"
   },
@@ -104,15 +92,23 @@
     "type": "practice"
   },
   {
+    "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "forth",
+    "type": "practice"
+  },
+  {
     "name": "game-of-life",
     "type": "practice"
   },
   {
     "name": "gigasecond",
-    "type": "practice"
-  },
-  {
-    "name": "grade-school",
     "type": "practice"
   },
   {
@@ -129,6 +125,10 @@
   },
   {
     "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "house",
     "type": "practice"
   },
   {
@@ -157,14 +157,6 @@
   },
   {
     "name": "leap",
-    "type": "practice"
-  },
-  {
-    "name": "linked-list",
-    "type": "practice"
-  },
-  {
-    "name": "list-ops",
     "type": "practice"
   },
   {
@@ -197,6 +189,10 @@
   },
   {
     "name": "nucleotide-count",
+    "type": "practice"
+  },
+  {
+    "name": "ocr-numbers",
     "type": "practice"
   },
   {
@@ -236,6 +232,10 @@
     "type": "practice"
   },
   {
+    "name": "proverb",
+    "type": "practice"
+  },
+  {
     "name": "pythagorean-triplet",
     "type": "practice"
   },
@@ -244,15 +244,7 @@
     "type": "practice"
   },
   {
-    "name": "rail-fence-cipher",
-    "type": "practice"
-  },
-  {
     "name": "raindrops",
-    "type": "practice"
-  },
-  {
-    "name": "rational-numbers",
     "type": "practice"
   },
   {
@@ -261,6 +253,10 @@
   },
   {
     "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
     "type": "practice"
   },
   {
@@ -280,6 +276,10 @@
     "type": "practice"
   },
   {
+    "name": "robot-simulator",
+    "type": "practice"
+  },
+  {
     "name": "roman-numerals",
     "type": "practice"
   },
@@ -293,10 +293,6 @@
   },
   {
     "name": "saddle-points",
-    "type": "practice"
-  },
-  {
-    "name": "say",
     "type": "practice"
   },
   {
@@ -316,7 +312,7 @@
     "type": "practice"
   },
   {
-    "name": "simple-linked-list",
+    "name": "simple-cipher",
     "type": "practice"
   },
   {
@@ -352,7 +348,7 @@
     "type": "practice"
   },
   {
-    "name": "two-bucket",
+    "name": "twelve-days",
     "type": "practice"
   },
   {
@@ -360,15 +356,11 @@
     "type": "practice"
   },
   {
-    "name": "variable-length-quantity",
+    "name": "word-count",
     "type": "practice"
   },
   {
     "name": "word-search",
-    "type": "practice"
-  },
-  {
-    "name": "wordy",
     "type": "practice"
   },
   {

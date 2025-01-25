@@ -52,6 +52,10 @@
     "type": "practice"
   },
   {
+    "name": "change",
+    "type": "practice"
+  },
+  {
     "name": "clock",
     "type": "practice"
   },
@@ -136,6 +140,10 @@
     "type": "practice"
   },
   {
+    "name": "killer-sudoku-helper",
+    "type": "practice"
+  },
+  {
     "name": "kindergarten-garden",
     "type": "practice"
   },
@@ -189,6 +197,10 @@
   },
   {
     "name": "phone-number",
+    "type": "practice"
+  },
+  {
+    "name": "pig-latin",
     "type": "practice"
   },
   {
