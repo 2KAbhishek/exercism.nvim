@@ -68,7 +68,6 @@ exercism.nvim integrates exercism into Neovim by providing a set of commands and
     },
     dependencies = {
         '2kabhishek/utils.nvim', -- required, for utility functions
-        'stevearc/dressing.nvim', -- optional, highly recommended, for fuzzy select UI
         '2kabhishek/termim.nvim', -- optional, better UX for running tests
     },
     -- Add your custom configs here, keep it blank for default configs (required)
