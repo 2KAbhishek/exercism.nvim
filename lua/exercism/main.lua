@@ -1,6 +1,5 @@
 local noti = require('utils.notification')
 local shell = require('utils.shell')
-local picker = require('utils.picker')
 
 local Path = require('plenary.path')
 local config = require('exercism.config').config
@@ -50,11 +49,11 @@ local function handle_selection(exercise_name, language)
 
         shell.async_shell_execute(download_cmd, function(result)
             if result then
-                picker.open_dir(exercise_dir)
+                shell.open_session_or_dir(exercise_dir)
             end
         end)
     else
-        picker.open_dir(exercise_dir)
+        shell.open_session_or_dir(exercise_dir)
     end
 end
 
