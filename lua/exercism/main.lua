@@ -1,4 +1,7 @@
-local utils = require('utils')
+local noti = require('utils.notification')
+local shell = require('utils.shell')
+local picker = require('utils.picker')
+
 local Path = require('plenary.path')
 local config = require('exercism.config').config
 
@@ -39,19 +42,19 @@ local function handle_selection(exercise_name, language)
     if not Path:new(exercise_dir):exists() then
         local download_cmd = string.format('exercism download --track=%s --exercise=%s', language, exercise_name)
 
-        utils.show_notification(
+        noti.show_notification(
             'Setting up exercise: ' .. exercise_name .. ' in ' .. language,
             vim.log.levels.INFO,
             'Exercism'
         )
 
-        utils.async_shell_execute(download_cmd, function(result)
+        shell.async_shell_execute(download_cmd, function(result)
             if result then
-                utils.open_dir(exercise_dir)
+                picker.open_dir(exercise_dir)
             end
         end)
     else
-        utils.open_dir(exercise_dir)
+        picker.open_dir(exercise_dir)
     end
 end
 
@@ -105,11 +108,11 @@ end
 
 M.submit_exercise = function()
     local submit_cmd = 'exercism submit'
-    utils.async_shell_execute(submit_cmd, function(result)
+    shell.async_shell_execute(submit_cmd, function(result)
         if result then
             vim.schedule(function()
                 local message = string.format('Exercise submitted successfully!\n%s', vim.trim(result))
-                utils.show_notification(message, vim.log.levels.INFO, 'Exercism')
+                noti.show_notification(message, vim.log.levels.INFO, 'Exercism')
             end)
         end
     end)
