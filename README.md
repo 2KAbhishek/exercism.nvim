@@ -43,6 +43,9 @@ exercism.nvim integrates exercism into Neovim by providing a set of commands and
 
 ### ⚙️ Requirements
 
+- [utils.nvim](https://github.com/2kabhishek/utils.nvim) for utility functions
+- [termin.nvim](https://github.com/2kabhishek/terminal.nvim) for terminal support
+
 - [exercism-cli](https://exercism.io/cli) installed and configured
   - Make sure to login with `exercism configure`
 - [tmux-tea](https://github.com/2kabhishek/tmux-tea) (optional, recommended) for separate tmux sessions for each exercise
