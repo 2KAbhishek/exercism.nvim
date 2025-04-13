@@ -1,4 +1,4 @@
-*exercism.txt*          For Neovim >= 0.8.0         Last change: 2025 March 30
+*exercism.txt*          For Neovim >= 0.8.0         Last change: 2025 April 13
 
 ==============================================================================
 Table of Contents                                 *exercism-table-of-contents*
@@ -26,9 +26,12 @@ SETUP                                                         *exercism-setup*
 
 REQUIREMENTS ~
 
+- utils.nvim <https://github.com/2kabhishek/utils.nvim> for utility functions
+- termin.nvim <https://github.com/2kabhishek/terminal.nvim> for terminal support
 - exercism-cli <https://exercism.io/cli> installed and configured
     - Make sure to login with `exercism configure`
-- tmux-tea <https://github.com/2kabhishek/tmux-tea> (optional, recommended) for separate tmux sessions for each exercise
+- tmux-tea <https://github.com/2kabhishek/tmux-tea> (optional, recommended) for
+    separate tmux sessions for each exercise
     - Use `set -g @tea-default-command 'nvim'` for a better experience
 
 
