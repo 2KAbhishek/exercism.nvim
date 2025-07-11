@@ -96,6 +96,10 @@
     "type": "practice"
   },
   {
+    "name": "custom-set",
+    "type": "practice"
+  },
+  {
     "name": "darts",
     "type": "practice"
   },
@@ -117,6 +121,10 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {
@@ -188,7 +196,15 @@
     "type": "practice"
   },
   {
+    "name": "nth-prime",
+    "type": "practice"
+  },
+  {
     "name": "nucleotide-count",
+    "type": "practice"
+  },
+  {
+    "name": "ocr-numbers",
     "type": "practice"
   },
   {
@@ -229,6 +245,10 @@
   },
   {
     "name": "queen-attack",
+    "type": "practice"
+  },
+  {
+    "name": "rail-fence-cipher",
     "type": "practice"
   },
   {

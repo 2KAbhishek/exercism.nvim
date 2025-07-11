@@ -80,6 +80,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "collatz-conjecture",
     "type": "practice"
   },
@@ -105,6 +109,10 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {

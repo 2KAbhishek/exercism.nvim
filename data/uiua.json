@@ -28,6 +28,10 @@
     "type": "practice"
   },
   {
+    "name": "baffling-birthdays",
+    "type": "practice"
+  },
+  {
     "name": "binary-search",
     "type": "practice"
   },
@@ -96,6 +100,10 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
     "type": "practice"
   },
@@ -129,6 +137,10 @@
   },
   {
     "name": "house",
+    "type": "practice"
+  },
+  {
+    "name": "intergalactic-transmission",
     "type": "practice"
   },
   {
@@ -244,6 +256,10 @@
     "type": "practice"
   },
   {
+    "name": "rail-fence-cipher",
+    "type": "practice"
+  },
+  {
     "name": "raindrops",
     "type": "practice"
   },
@@ -293,6 +309,10 @@
   },
   {
     "name": "saddle-points",
+    "type": "practice"
+  },
+  {
+    "name": "say",
     "type": "practice"
   },
   {
@@ -353,6 +373,10 @@
   },
   {
     "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "variable-length-quantity",
     "type": "practice"
   },
   {

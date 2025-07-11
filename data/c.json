@@ -88,6 +88,10 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "gigasecond",
     "type": "practice"
   },
@@ -109,6 +113,10 @@
   },
   {
     "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "intergalactic-transmission",
     "type": "practice"
   },
   {
@@ -309,6 +317,10 @@
   },
   {
     "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "variable-length-quantity",
     "type": "practice"
   },
   {

@@ -28,6 +28,10 @@
     "type": "practice"
   },
   {
+    "name": "affine-cipher",
+    "type": "practice"
+  },
+  {
     "name": "all-your-base",
     "type": "practice"
   },
@@ -149,6 +153,10 @@
   },
   {
     "name": "kindergarten-garden",
+    "type": "practice"
+  },
+  {
+    "name": "knapsack",
     "type": "practice"
   },
   {

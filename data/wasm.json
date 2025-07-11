@@ -4,7 +4,15 @@
     "type": "practice"
   },
   {
+    "name": "affine-cipher",
+    "type": "practice"
+  },
+  {
     "name": "all-your-base",
+    "type": "practice"
+  },
+  {
+    "name": "anagram",
     "type": "practice"
   },
   {
@@ -28,7 +36,23 @@
     "type": "practice"
   },
   {
+    "name": "book-store",
+    "type": "practice"
+  },
+  {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
+    "name": "bowling",
+    "type": "practice"
+  },
+  {
     "name": "circular-buffer",
+    "type": "practice"
+  },
+  {
+    "name": "clock",
     "type": "practice"
   },
   {
@@ -36,7 +60,19 @@
     "type": "practice"
   },
   {
+    "name": "complex-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "crypto-square",
+    "type": "practice"
+  },
+  {
     "name": "darts",
+    "type": "practice"
+  },
+  {
+    "name": "diamond",
     "type": "practice"
   },
   {
@@ -44,7 +80,23 @@
     "type": "practice"
   },
   {
+    "name": "dnd-character",
+    "type": "practice"
+  },
+  {
     "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
+    "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "grade-school",
     "type": "practice"
   },
   {
@@ -57,6 +109,14 @@
   },
   {
     "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "house",
     "type": "practice"
   },
   {
@@ -92,6 +152,10 @@
     "type": "practice"
   },
   {
+    "name": "meetup",
+    "type": "practice"
+  },
+  {
     "name": "micro-blog",
     "type": "practice"
   },
@@ -100,11 +164,27 @@
     "type": "practice"
   },
   {
+    "name": "nth-prime",
+    "type": "practice"
+  },
+  {
     "name": "nucleotide-count",
     "type": "practice"
   },
   {
+    "name": "ocr-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "palindrome-products",
+    "type": "practice"
+  },
+  {
     "name": "pangram",
+    "type": "practice"
+  },
+  {
+    "name": "pascals-triangle",
     "type": "practice"
   },
   {
@@ -116,11 +196,51 @@
     "type": "practice"
   },
   {
+    "name": "piecing-it-together",
+    "type": "practice"
+  },
+  {
+    "name": "pig-latin",
+    "type": "practice"
+  },
+  {
+    "name": "prime-factors",
+    "type": "practice"
+  },
+  {
+    "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "proverb",
+    "type": "practice"
+  },
+  {
+    "name": "pythagorean-triplet",
+    "type": "practice"
+  },
+  {
+    "name": "queen-attack",
+    "type": "practice"
+  },
+  {
     "name": "raindrops",
     "type": "practice"
   },
   {
+    "name": "rational-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "rectangles",
+    "type": "practice"
+  },
+  {
     "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
     "type": "practice"
   },
   {
@@ -136,6 +256,14 @@
     "type": "practice"
   },
   {
+    "name": "robot-name",
+    "type": "practice"
+  },
+  {
+    "name": "robot-simulator",
+    "type": "practice"
+  },
+  {
     "name": "roman-numerals",
     "type": "practice"
   },
@@ -148,7 +276,19 @@
     "type": "practice"
   },
   {
+    "name": "saddle-points",
+    "type": "practice"
+  },
+  {
     "name": "scrabble-score",
+    "type": "practice"
+  },
+  {
+    "name": "secret-handshake",
+    "type": "practice"
+  },
+  {
+    "name": "series",
     "type": "practice"
   },
   {
@@ -156,7 +296,27 @@
     "type": "practice"
   },
   {
+    "name": "space-age",
+    "type": "practice"
+  },
+  {
+    "name": "spiral-matrix",
+    "type": "practice"
+  },
+  {
     "name": "square-root",
+    "type": "practice"
+  },
+  {
+    "name": "state-of-tic-tac-toe",
+    "type": "practice"
+  },
+  {
+    "name": "sublist",
+    "type": "practice"
+  },
+  {
+    "name": "tournament",
     "type": "practice"
   },
   {
@@ -164,7 +324,23 @@
     "type": "practice"
   },
   {
+    "name": "twelve-days",
+    "type": "practice"
+  },
+  {
+    "name": "two-bucket",
+    "type": "practice"
+  },
+  {
     "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "variable-length-quantity",
+    "type": "practice"
+  },
+  {
+    "name": "yacht",
     "type": "practice"
   }
 ]

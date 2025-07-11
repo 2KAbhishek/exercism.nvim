@@ -40,6 +40,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "circular-buffer",
     "type": "practice"
   },
@@ -72,11 +76,19 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
     "type": "practice"
   },
   {
     "name": "forth",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -101,6 +113,10 @@
   },
   {
     "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "house",
     "type": "practice"
   },
   {
@@ -196,7 +212,15 @@
     "type": "practice"
   },
   {
+    "name": "relative-distance",
+    "type": "practice"
+  },
+  {
     "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
     "type": "practice"
   },
   {
@@ -265,6 +289,10 @@
   },
   {
     "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
     "type": "practice"
   },
   {

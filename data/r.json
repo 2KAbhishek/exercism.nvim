@@ -64,6 +64,10 @@
     "type": "practice"
   },
   {
+    "name": "complex-numbers",
+    "type": "practice"
+  },
+  {
     "name": "crypto-square",
     "type": "practice"
   },
@@ -184,6 +188,10 @@
     "type": "practice"
   },
   {
+    "name": "palindrome-products",
+    "type": "practice"
+  },
+  {
     "name": "pangram",
     "type": "practice"
   },
@@ -236,6 +244,10 @@
     "type": "practice"
   },
   {
+    "name": "resistor-color-trio",
+    "type": "practice"
+  },
+  {
     "name": "resistor-color",
     "type": "practice"
   },
@@ -272,6 +284,10 @@
     "type": "practice"
   },
   {
+    "name": "say",
+    "type": "practice"
+  },
+  {
     "name": "scrabble-score",
     "type": "practice"
   },
@@ -304,6 +320,10 @@
     "type": "practice"
   },
   {
+    "name": "sublist",
+    "type": "practice"
+  },
+  {
     "name": "sum-of-multiples",
     "type": "practice"
   },
@@ -321,6 +341,10 @@
   },
   {
     "name": "two-fer",
+    "type": "practice"
+  },
+  {
+    "name": "variable-length-quantity",
     "type": "practice"
   },
   {

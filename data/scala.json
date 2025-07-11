@@ -64,6 +64,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "bowling",
     "type": "practice"
   },
@@ -165,6 +169,10 @@
   },
   {
     "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "killer-sudoku-helper",
     "type": "practice"
   },
   {

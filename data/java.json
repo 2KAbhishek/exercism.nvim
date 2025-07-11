@@ -28,15 +28,19 @@
     "type": "concept"
   },
   {
-    "name": "elons-toy-car",
-    "type": "concept"
-  },
-  {
     "name": "football-match-reports",
     "type": "concept"
   },
   {
     "name": "gotta-snatch-em-all",
+    "type": "concept"
+  },
+  {
+    "name": "international-calling-connoisseur",
+    "type": "concept"
+  },
+  {
+    "name": "jedliks-toy-car",
     "type": "concept"
   },
   {
@@ -236,6 +240,10 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
     "type": "practice"
   },
@@ -404,6 +412,10 @@
     "type": "practice"
   },
   {
+    "name": "piecing-it-together",
+    "type": "practice"
+  },
+  {
     "name": "pig-latin",
     "type": "practice"
   },
@@ -453,6 +465,10 @@
   },
   {
     "name": "rectangles",
+    "type": "practice"
+  },
+  {
+    "name": "relative-distance",
     "type": "practice"
   },
   {
@@ -565,6 +581,10 @@
   },
   {
     "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "swift-scheduling",
     "type": "practice"
   },
   {

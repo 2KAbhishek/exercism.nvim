@@ -4,6 +4,10 @@
     "type": "practice"
   },
   {
+    "name": "all-your-base",
+    "type": "practice"
+  },
+  {
     "name": "allergies",
     "type": "practice"
   },
@@ -68,6 +72,10 @@
     "type": "practice"
   },
   {
+    "name": "gigasecond",
+    "type": "practice"
+  },
+  {
     "name": "grade-school",
     "type": "practice"
   },
@@ -116,6 +124,10 @@
     "type": "practice"
   },
   {
+    "name": "ocr-numbers",
+    "type": "practice"
+  },
+  {
     "name": "pangram",
     "type": "practice"
   },
@@ -125,6 +137,10 @@
   },
   {
     "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "rectangles",
     "type": "practice"
   },
   {
@@ -177,6 +193,10 @@
   },
   {
     "name": "word-count",
+    "type": "practice"
+  },
+  {
+    "name": "word-search",
     "type": "practice"
   }
 ]

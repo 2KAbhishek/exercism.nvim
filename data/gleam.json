@@ -192,6 +192,10 @@
     "type": "practice"
   },
   {
+    "name": "commands.sh",
+    "type": "practice"
+  },
+  {
     "name": "connect",
     "type": "practice"
   },
@@ -233,6 +237,10 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {
@@ -349,6 +357,10 @@
   },
   {
     "name": "pov",
+    "type": "practice"
+  },
+  {
+    "name": "practices.txt",
     "type": "practice"
   },
   {

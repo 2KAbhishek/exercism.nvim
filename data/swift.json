@@ -1,10 +1,22 @@
 [
   {
+    "name": "bird-watcher",
+    "type": "concept"
+  },
+  {
     "name": "bomb-defuser",
     "type": "concept"
   },
   {
+    "name": "chessboard",
+    "type": "concept"
+  },
+  {
     "name": "custom-signs",
+    "type": "concept"
+  },
+  {
+    "name": "expert-mixologist",
     "type": "concept"
   },
   {
@@ -29,10 +41,6 @@
   },
   {
     "name": "magician-in-training",
-    "type": "concept"
-  },
-  {
-    "name": "master-mixologist",
     "type": "concept"
   },
   {
@@ -165,6 +173,10 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {
@@ -316,7 +328,23 @@
     "type": "practice"
   },
   {
+    "name": "rail-fence-cipher",
+    "type": "practice"
+  },
+  {
     "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
     "type": "practice"
   },
   {
@@ -385,6 +413,10 @@
   },
   {
     "name": "space-age",
+    "type": "practice"
+  },
+  {
+    "name": "spiral-matrix",
     "type": "practice"
   },
   {

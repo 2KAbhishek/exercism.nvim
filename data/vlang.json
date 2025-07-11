@@ -44,6 +44,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "bowling",
     "type": "practice"
   },
@@ -104,6 +108,14 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
     "name": "game-of-life",
     "type": "practice"
   },
@@ -129,6 +141,14 @@
   },
   {
     "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "house",
+    "type": "practice"
+  },
+  {
+    "name": "intergalactic-transmission",
     "type": "practice"
   },
   {
@@ -224,6 +244,10 @@
     "type": "practice"
   },
   {
+    "name": "piecing-it-together",
+    "type": "practice"
+  },
+  {
     "name": "pig-latin",
     "type": "practice"
   },
@@ -233,6 +257,10 @@
   },
   {
     "name": "protein-translation",
+    "type": "practice"
+  },
+  {
+    "name": "proverb",
     "type": "practice"
   },
   {
@@ -261,6 +289,10 @@
   },
   {
     "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
     "type": "practice"
   },
   {
@@ -348,7 +380,15 @@
     "type": "practice"
   },
   {
+    "name": "transpose",
+    "type": "practice"
+  },
+  {
     "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
     "type": "practice"
   },
   {
@@ -361,6 +401,10 @@
   },
   {
     "name": "variable-length-quantity",
+    "type": "practice"
+  },
+  {
+    "name": "word-count",
     "type": "practice"
   },
   {

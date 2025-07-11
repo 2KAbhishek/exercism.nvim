@@ -8,7 +8,15 @@
     "type": "concept"
   },
   {
+    "name": "appointment-time",
+    "type": "concept"
+  },
+  {
     "name": "bird-watcher",
+    "type": "concept"
+  },
+  {
+    "name": "captains-log",
     "type": "concept"
   },
   {
@@ -88,7 +96,15 @@
     "type": "concept"
   },
   {
+    "name": "recycling-robot",
+    "type": "concept"
+  },
+  {
     "name": "regular-chatbot",
+    "type": "concept"
+  },
+  {
+    "name": "train-driver",
     "type": "concept"
   },
   {
@@ -244,11 +260,19 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
     "type": "practice"
   },
   {
     "name": "forth",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -457,6 +481,10 @@
   },
   {
     "name": "rectangles",
+    "type": "practice"
+  },
+  {
+    "name": "relative-distance",
     "type": "practice"
   },
   {

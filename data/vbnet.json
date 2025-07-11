@@ -56,6 +56,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "bowling",
     "type": "practice"
   },
@@ -84,6 +88,10 @@
     "type": "practice"
   },
   {
+    "name": "diamond",
+    "type": "practice"
+  },
+  {
     "name": "difference-of-squares",
     "type": "practice"
   },
@@ -93,6 +101,10 @@
   },
   {
     "name": "dnd-character",
+    "type": "practice"
+  },
+  {
+    "name": "eliuds-eggs",
     "type": "practice"
   },
   {
@@ -108,7 +120,15 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -192,6 +212,10 @@
     "type": "practice"
   },
   {
+    "name": "nth-prime",
+    "type": "practice"
+  },
+  {
     "name": "nucleotide-count",
     "type": "practice"
   },
@@ -253,6 +277,10 @@
   },
   {
     "name": "rectangles",
+    "type": "practice"
+  },
+  {
+    "name": "relative-distance",
     "type": "practice"
   },
   {
@@ -341,6 +369,10 @@
   },
   {
     "name": "spiral-matrix",
+    "type": "practice"
+  },
+  {
+    "name": "square-root",
     "type": "practice"
   },
   {

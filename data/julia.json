@@ -4,7 +4,155 @@
     "type": "concept"
   },
   {
+    "name": "bird-watcher",
+    "type": "concept"
+  },
+  {
+    "name": "booking-up-for-beauty",
+    "type": "concept"
+  },
+  {
+    "name": "captains-log",
+    "type": "concept"
+  },
+  {
+    "name": "cars-assemble",
+    "type": "concept"
+  },
+  {
+    "name": "cater-waiter",
+    "type": "concept"
+  },
+  {
+    "name": "chessboard",
+    "type": "concept"
+  },
+  {
+    "name": "currency-exchange",
+    "type": "concept"
+  },
+  {
+    "name": "elyses-enchantments",
+    "type": "concept"
+  },
+  {
+    "name": "encounters",
+    "type": "concept"
+  },
+  {
+    "name": "factory-sensors",
+    "type": "concept"
+  },
+  {
+    "name": "grading-guru",
+    "type": "concept"
+  },
+  {
+    "name": "high-school-sweetheart",
+    "type": "concept"
+  },
+  {
+    "name": "inventory-management",
+    "type": "concept"
+  },
+  {
+    "name": "land-grab-in-space",
+    "type": "concept"
+  },
+  {
     "name": "lasagna",
+    "type": "concept"
+  },
+  {
+    "name": "locomotive-engineer",
+    "type": "concept"
+  },
+  {
+    "name": "log-levels",
+    "type": "concept"
+  },
+  {
+    "name": "mixed-juices",
+    "type": "concept"
+  },
+  {
+    "name": "name-badges",
+    "type": "concept"
+  },
+  {
+    "name": "old-annalyns-infiltration2",
+    "type": "concept"
+  },
+  {
+    "name": "old-dnd-char",
+    "type": "concept"
+  },
+  {
+    "name": "old-documented-lasagna",
+    "type": "concept"
+  },
+  {
+    "name": "old-elyses-analytic-enchantments",
+    "type": "concept"
+  },
+  {
+    "name": "old-elyses-enchantments",
+    "type": "concept"
+  },
+  {
+    "name": "old-emoji-times",
+    "type": "concept"
+  },
+  {
+    "name": "old-exercism-matrix",
+    "type": "concept"
+  },
+  {
+    "name": "old-fibonacci-iterator",
+    "type": "concept"
+  },
+  {
+    "name": "old-high-score",
+    "type": "concept"
+  },
+  {
+    "name": "old-stage-heralding",
+    "type": "concept"
+  },
+  {
+    "name": "old-tech-palace",
+    "type": "concept"
+  },
+  {
+    "name": "old-vehicle-purchase",
+    "type": "concept"
+  },
+  {
+    "name": "problematic-probabilities",
+    "type": "concept"
+  },
+  {
+    "name": "role-playing-game",
+    "type": "concept"
+  },
+  {
+    "name": "secrets",
+    "type": "concept"
+  },
+  {
+    "name": "squeaky-clean",
+    "type": "concept"
+  },
+  {
+    "name": "tisbury-treasure-hunt",
+    "type": "concept"
+  },
+  {
+    "name": "tracking-turntable",
+    "type": "concept"
+  },
+  {
+    "name": "treasure-chest",
     "type": "concept"
   },
   {
@@ -105,6 +253,14 @@
   },
   {
     "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "fft",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {

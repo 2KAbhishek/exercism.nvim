@@ -12,10 +12,6 @@
     "type": "concept"
   },
   {
-    "name": "cars-assemble",
-    "type": "concept"
-  },
-  {
     "name": "chrono-realms-chrono-chain",
     "type": "concept"
   },
@@ -145,6 +141,10 @@
   },
   {
     "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {

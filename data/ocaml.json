@@ -60,6 +60,10 @@
     "type": "practice"
   },
   {
+    "name": "eliuds-eggs",
+    "type": "practice"
+  },
+  {
     "name": "etl",
     "type": "practice"
   },
@@ -85,6 +89,10 @@
   },
   {
     "name": "hexadecimal",
+    "type": "practice"
+  },
+  {
+    "name": "isogram",
     "type": "practice"
   },
   {

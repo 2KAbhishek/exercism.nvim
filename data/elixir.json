@@ -60,6 +60,10 @@
     "type": "concept"
   },
   {
+    "name": "gotta-snatch-em-all",
+    "type": "concept"
+  },
+  {
     "name": "guessing-game",
     "type": "concept"
   },
@@ -208,6 +212,10 @@
     "type": "practice"
   },
   {
+    "name": "baffling-birthdays",
+    "type": "practice"
+  },
+  {
     "name": "bank-account",
     "type": "practice"
   },
@@ -316,6 +324,10 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
     "type": "practice"
   },
@@ -361,6 +373,10 @@
   },
   {
     "name": "house",
+    "type": "practice"
+  },
+  {
+    "name": "intergalactic-transmission",
     "type": "practice"
   },
   {
@@ -460,6 +476,10 @@
     "type": "practice"
   },
   {
+    "name": "piecing-it-together",
+    "type": "practice"
+  },
+  {
     "name": "pig-latin",
     "type": "practice"
   },
@@ -509,6 +529,10 @@
   },
   {
     "name": "rectangles",
+    "type": "practice"
+  },
+  {
+    "name": "relative-distance",
     "type": "practice"
   },
   {
@@ -596,6 +620,10 @@
     "type": "practice"
   },
   {
+    "name": "split-second-stopwatch",
+    "type": "practice"
+  },
+  {
     "name": "square-root",
     "type": "practice"
   },
@@ -613,6 +641,10 @@
   },
   {
     "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "swift-scheduling",
     "type": "practice"
   },
   {

@@ -56,6 +56,10 @@
     "type": "practice"
   },
   {
+    "name": "change",
+    "type": "practice"
+  },
+  {
     "name": "circular-buffer",
     "type": "practice"
   },
@@ -76,6 +80,10 @@
     "type": "practice"
   },
   {
+    "name": "diamond",
+    "type": "practice"
+  },
+  {
     "name": "difference-of-squares",
     "type": "practice"
   },
@@ -93,6 +101,18 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -121,6 +141,10 @@
   },
   {
     "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "house",
     "type": "practice"
   },
   {
@@ -232,7 +256,15 @@
     "type": "practice"
   },
   {
+    "name": "relative-distance",
+    "type": "practice"
+  },
+  {
     "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
     "type": "practice"
   },
   {
@@ -313,6 +345,10 @@
   },
   {
     "name": "trinary",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
     "type": "practice"
   },
   {

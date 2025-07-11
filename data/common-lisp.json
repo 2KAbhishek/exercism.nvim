@@ -108,6 +108,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "collatz-conjecture",
     "type": "practice"
   },
@@ -161,6 +165,10 @@
   },
   {
     "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "house",
     "type": "practice"
   },
   {
@@ -260,6 +268,18 @@
     "type": "practice"
   },
   {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
+    "type": "practice"
+  },
+  {
     "name": "rna-transcription",
     "type": "practice"
   },
@@ -309,6 +329,10 @@
   },
   {
     "name": "spiral-matrix",
+    "type": "practice"
+  },
+  {
+    "name": "square-root",
     "type": "practice"
   },
   {

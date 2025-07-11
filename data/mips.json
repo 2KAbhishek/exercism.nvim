@@ -60,7 +60,15 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -241,6 +249,10 @@
   },
   {
     "name": "twelve-days",
+    "type": "practice"
+  },
+  {
+    "name": "two-bucket",
     "type": "practice"
   },
   {

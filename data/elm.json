@@ -12,6 +12,10 @@
     "type": "concept"
   },
   {
+    "name": "bird-count",
+    "type": "concept"
+  },
+  {
     "name": "blorkemon-cards",
     "type": "concept"
   },
@@ -25,6 +29,10 @@
   },
   {
     "name": "gotta-snatch-em-all",
+    "type": "concept"
+  },
+  {
+    "name": "kurokos-clock",
     "type": "concept"
   },
   {
@@ -52,7 +60,19 @@
     "type": "concept"
   },
   {
+    "name": "paulas-palindromes",
+    "type": "concept"
+  },
+  {
+    "name": "pipers-pie",
+    "type": "concept"
+  },
+  {
     "name": "role-playing-game",
+    "type": "concept"
+  },
+  {
+    "name": "secrets",
     "type": "concept"
   },
   {
@@ -152,6 +172,10 @@
     "type": "practice"
   },
   {
+    "name": "darts",
+    "type": "practice"
+  },
+  {
     "name": "diamond",
     "type": "practice"
   },
@@ -169,6 +193,10 @@
   },
   {
     "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {
@@ -240,6 +268,10 @@
     "type": "practice"
   },
   {
+    "name": "palindrome-products",
+    "type": "practice"
+  },
+  {
     "name": "pangram",
     "type": "practice"
   },
@@ -265,6 +297,22 @@
   },
   {
     "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "relative-distance",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-duo",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-trio",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color",
     "type": "practice"
   },
   {
@@ -332,6 +380,14 @@
     "type": "practice"
   },
   {
+    "name": "split-second-stopwatch",
+    "type": "practice"
+  },
+  {
+    "name": "square-root",
+    "type": "practice"
+  },
+  {
     "name": "strain",
     "type": "practice"
   },
@@ -341,6 +397,10 @@
   },
   {
     "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "swift-scheduling",
     "type": "practice"
   },
   {

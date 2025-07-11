@@ -32,6 +32,14 @@
     "type": "practice"
   },
   {
+    "name": "book-store",
+    "type": "practice"
+  },
+  {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "collatz-conjecture",
     "type": "practice"
   },
@@ -52,6 +60,10 @@
     "type": "practice"
   },
   {
+    "name": "food-chain",
+    "type": "practice"
+  },
+  {
     "name": "grains",
     "type": "practice"
   },
@@ -64,11 +76,19 @@
     "type": "practice"
   },
   {
+    "name": "house",
+    "type": "practice"
+  },
+  {
     "name": "isbn-verifier",
     "type": "practice"
   },
   {
     "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "kindergarten-garden",
     "type": "practice"
   },
   {
@@ -96,6 +116,10 @@
     "type": "practice"
   },
   {
+    "name": "nth-prime",
+    "type": "practice"
+  },
+  {
     "name": "nucleotide-count",
     "type": "practice"
   },
@@ -104,11 +128,23 @@
     "type": "practice"
   },
   {
+    "name": "pascals-triangle",
+    "type": "practice"
+  },
+  {
     "name": "perfect-numbers",
     "type": "practice"
   },
   {
+    "name": "phone-number",
+    "type": "practice"
+  },
+  {
     "name": "pig-latin",
+    "type": "practice"
+  },
+  {
+    "name": "prime-factors",
     "type": "practice"
   },
   {
@@ -144,6 +180,10 @@
     "type": "practice"
   },
   {
+    "name": "roman-numerals",
+    "type": "practice"
+  },
+  {
     "name": "rotational-cipher",
     "type": "practice"
   },
@@ -172,11 +212,19 @@
     "type": "practice"
   },
   {
+    "name": "sublist",
+    "type": "practice"
+  },
+  {
     "name": "sum-of-multiples",
     "type": "practice"
   },
   {
     "name": "triangle",
+    "type": "practice"
+  },
+  {
+    "name": "twelve-days",
     "type": "practice"
   },
   {

@@ -40,10 +40,6 @@
     "type": "concept"
   },
   {
-    "name": "elons-toys",
-    "type": "concept"
-  },
-  {
     "name": "faceid-2",
     "type": "concept"
   },
@@ -77,6 +73,10 @@
   },
   {
     "name": "international-calling-connoisseur",
+    "type": "concept"
+  },
+  {
+    "name": "jedliks-toys",
     "type": "concept"
   },
   {
@@ -204,6 +204,10 @@
     "type": "practice"
   },
   {
+    "name": "baffling-birthdays",
+    "type": "practice"
+  },
+  {
     "name": "bank-account",
     "type": "practice"
   },
@@ -229,6 +233,10 @@
   },
   {
     "name": "book-store",
+    "type": "practice"
+  },
+  {
+    "name": "bottle-song",
     "type": "practice"
   },
   {
@@ -312,6 +320,10 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
     "type": "practice"
   },
@@ -368,11 +380,19 @@
     "type": "practice"
   },
   {
+    "name": "intergalactic-transmission",
+    "type": "practice"
+  },
+  {
     "name": "isbn-verifier",
     "type": "practice"
   },
   {
     "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "killer-sudoku-helper",
     "type": "practice"
   },
   {
@@ -520,6 +540,10 @@
     "type": "practice"
   },
   {
+    "name": "relative-distance",
+    "type": "practice"
+  },
+  {
     "name": "resistor-color-duo",
     "type": "practice"
   },
@@ -568,6 +592,10 @@
     "type": "practice"
   },
   {
+    "name": "satellite",
+    "type": "practice"
+  },
+  {
     "name": "say",
     "type": "practice"
   },
@@ -612,7 +640,15 @@
     "type": "practice"
   },
   {
+    "name": "split-second-stopwatch",
+    "type": "practice"
+  },
+  {
     "name": "square-root",
+    "type": "practice"
+  },
+  {
+    "name": "state-of-tic-tac-toe",
     "type": "practice"
   },
   {
@@ -625,6 +661,10 @@
   },
   {
     "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "swift-scheduling",
     "type": "practice"
   },
   {

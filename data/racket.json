@@ -48,6 +48,10 @@
     "type": "practice"
   },
   {
+    "name": "bowling",
+    "type": "practice"
+  },
+  {
     "name": "circular-buffer",
     "type": "practice"
   },
@@ -81,6 +85,10 @@
   },
   {
     "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {
@@ -197,6 +205,10 @@
   },
   {
     "name": "proverb",
+    "type": "practice"
+  },
+  {
+    "name": "pythagorean-triplets",
     "type": "practice"
   },
   {

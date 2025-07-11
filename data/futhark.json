@@ -1,26 +1,10 @@
 [
   {
-    "name": "accumulate",
-    "type": "practice"
-  },
-  {
-    "name": "acronym",
-    "type": "practice"
-  },
-  {
     "name": "affine-cipher",
     "type": "practice"
   },
   {
     "name": "all-your-base",
-    "type": "practice"
-  },
-  {
-    "name": "allergies",
-    "type": "practice"
-  },
-  {
-    "name": "anagram",
     "type": "practice"
   },
   {
@@ -36,23 +20,7 @@
     "type": "practice"
   },
   {
-    "name": "binary",
-    "type": "practice"
-  },
-  {
     "name": "bob",
-    "type": "practice"
-  },
-  {
-    "name": "book-store",
-    "type": "practice"
-  },
-  {
-    "name": "bottle-song",
-    "type": "practice"
-  },
-  {
-    "name": "circular-buffer",
     "type": "practice"
   },
   {
@@ -60,11 +28,11 @@
     "type": "practice"
   },
   {
-    "name": "darts",
+    "name": "crypto-square",
     "type": "practice"
   },
   {
-    "name": "diamond",
+    "name": "darts",
     "type": "practice"
   },
   {
@@ -73,18 +41,6 @@
   },
   {
     "name": "eliuds-eggs",
-    "type": "practice"
-  },
-  {
-    "name": "flatten-array",
-    "type": "practice"
-  },
-  {
-    "name": "food-chain",
-    "type": "practice"
-  },
-  {
-    "name": "gigasecond",
     "type": "practice"
   },
   {
@@ -100,7 +56,11 @@
     "type": "practice"
   },
   {
-    "name": "house",
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "intergalactic-transmission",
     "type": "practice"
   },
   {
@@ -112,23 +72,11 @@
     "type": "practice"
   },
   {
-    "name": "kindergarten-garden",
-    "type": "practice"
-  },
-  {
-    "name": "knapsack",
-    "type": "practice"
-  },
-  {
     "name": "largest-series-product",
     "type": "practice"
   },
   {
     "name": "leap",
-    "type": "practice"
-  },
-  {
-    "name": "list-ops",
     "type": "practice"
   },
   {
@@ -140,27 +88,7 @@
     "type": "practice"
   },
   {
-    "name": "matrix",
-    "type": "practice"
-  },
-  {
-    "name": "nth-prime",
-    "type": "practice"
-  },
-  {
-    "name": "nucleotide-count",
-    "type": "practice"
-  },
-  {
-    "name": "palindrome-products",
-    "type": "practice"
-  },
-  {
     "name": "pangram",
-    "type": "practice"
-  },
-  {
-    "name": "pascals-triangle",
     "type": "practice"
   },
   {
@@ -172,23 +100,7 @@
     "type": "practice"
   },
   {
-    "name": "pig-latin",
-    "type": "practice"
-  },
-  {
     "name": "prime-factors",
-    "type": "practice"
-  },
-  {
-    "name": "protein-translation",
-    "type": "practice"
-  },
-  {
-    "name": "proverb",
-    "type": "practice"
-  },
-  {
-    "name": "pythagorean-triplet",
     "type": "practice"
   },
   {
@@ -197,14 +109,6 @@
   },
   {
     "name": "raindrops",
-    "type": "practice"
-  },
-  {
-    "name": "resistor-color-duo",
-    "type": "practice"
-  },
-  {
-    "name": "resistor-color",
     "type": "practice"
   },
   {
@@ -228,19 +132,11 @@
     "type": "practice"
   },
   {
-    "name": "say",
-    "type": "practice"
-  },
-  {
     "name": "scrabble-score",
     "type": "practice"
   },
   {
     "name": "secret-handshake",
-    "type": "practice"
-  },
-  {
-    "name": "sieve",
     "type": "practice"
   },
   {
@@ -252,19 +148,7 @@
     "type": "practice"
   },
   {
-    "name": "strain",
-    "type": "practice"
-  },
-  {
-    "name": "sublist",
-    "type": "practice"
-  },
-  {
     "name": "sum-of-multiples",
-    "type": "practice"
-  },
-  {
-    "name": "transpose",
     "type": "practice"
   },
   {
@@ -272,19 +156,11 @@
     "type": "practice"
   },
   {
-    "name": "twelve-days",
-    "type": "practice"
-  },
-  {
     "name": "two-fer",
     "type": "practice"
   },
   {
-    "name": "wordy",
-    "type": "practice"
-  },
-  {
-    "name": "yacht",
+    "name": "variable-length-quantity",
     "type": "practice"
   }
 ]

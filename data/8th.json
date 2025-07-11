@@ -36,6 +36,10 @@
     "type": "practice"
   },
   {
+    "name": "bottle-song",
+    "type": "practice"
+  },
+  {
     "name": "circular-buffer",
     "type": "practice"
   },
@@ -93,6 +97,14 @@
   },
   {
     "name": "high-scores",
+    "type": "practice"
+  },
+  {
+    "name": "house",
+    "type": "practice"
+  },
+  {
+    "name": "isbn-verifier",
     "type": "practice"
   },
   {
@@ -160,6 +172,10 @@
     "type": "practice"
   },
   {
+    "name": "prime-factors",
+    "type": "practice"
+  },
+  {
     "name": "protein-translation",
     "type": "practice"
   },
@@ -172,7 +188,15 @@
     "type": "practice"
   },
   {
+    "name": "queen-attack",
+    "type": "practice"
+  },
+  {
     "name": "raindrops",
+    "type": "practice"
+  },
+  {
+    "name": "resistor-color-duo",
     "type": "practice"
   },
   {
@@ -193,6 +217,10 @@
   },
   {
     "name": "rotational-cipher",
+    "type": "practice"
+  },
+  {
+    "name": "run-length-encoding",
     "type": "practice"
   },
   {

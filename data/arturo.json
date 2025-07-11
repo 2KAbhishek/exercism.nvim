@@ -4,6 +4,10 @@
     "type": "practice"
   },
   {
+    "name": "allergies",
+    "type": "practice"
+  },
+  {
     "name": "anagram",
     "type": "practice"
   },
@@ -60,7 +64,15 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -117,6 +129,10 @@
   },
   {
     "name": "matrix",
+    "type": "practice"
+  },
+  {
+    "name": "meetup",
     "type": "practice"
   },
   {
@@ -180,6 +196,10 @@
     "type": "practice"
   },
   {
+    "name": "robot-simulator",
+    "type": "practice"
+  },
+  {
     "name": "roman-numerals",
     "type": "practice"
   },
@@ -216,6 +236,10 @@
     "type": "practice"
   },
   {
+    "name": "strain",
+    "type": "practice"
+  },
+  {
     "name": "sum-of-multiples",
     "type": "practice"
   },
@@ -229,6 +253,10 @@
   },
   {
     "name": "twelve-days",
+    "type": "practice"
+  },
+  {
+    "name": "two-bucket",
     "type": "practice"
   },
   {

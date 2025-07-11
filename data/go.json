@@ -48,10 +48,6 @@
     "type": "concept"
   },
   {
-    "name": "elons-toys",
-    "type": "concept"
-  },
-  {
     "name": "expenses",
     "type": "concept"
   },
@@ -61,6 +57,10 @@
   },
   {
     "name": "interest-is-interesting",
+    "type": "concept"
+  },
+  {
+    "name": "jedliks-toys",
     "type": "concept"
   },
   {

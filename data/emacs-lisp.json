@@ -88,6 +88,10 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
     "type": "practice"
   },
@@ -113,6 +117,10 @@
   },
   {
     "name": "hello-world",
+    "type": "practice"
+  },
+  {
+    "name": "house",
     "type": "practice"
   },
   {

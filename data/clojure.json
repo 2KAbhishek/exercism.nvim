@@ -120,6 +120,10 @@
     "type": "practice"
   },
   {
+    "name": "connect",
+    "type": "practice"
+  },
+  {
     "name": "crypto-square",
     "type": "practice"
   },
@@ -153,6 +157,10 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {

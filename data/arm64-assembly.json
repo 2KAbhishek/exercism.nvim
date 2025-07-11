@@ -12,6 +12,14 @@
     "type": "practice"
   },
   {
+    "name": "allergies",
+    "type": "practice"
+  },
+  {
+    "name": "anagram",
+    "type": "practice"
+  },
+  {
     "name": "armstrong-numbers",
     "type": "practice"
   },
@@ -40,6 +48,10 @@
     "type": "practice"
   },
   {
+    "name": "crypto-square",
+    "type": "practice"
+  },
+  {
     "name": "darts",
     "type": "practice"
   },
@@ -60,7 +72,15 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "food-chain",
+    "type": "practice"
+  },
+  {
+    "name": "game-of-life",
     "type": "practice"
   },
   {
@@ -77,6 +97,10 @@
   },
   {
     "name": "house",
+    "type": "practice"
+  },
+  {
+    "name": "intergalactic-transmission",
     "type": "practice"
   },
   {
@@ -101,6 +125,10 @@
   },
   {
     "name": "leap",
+    "type": "practice"
+  },
+  {
+    "name": "list-ops",
     "type": "practice"
   },
   {
@@ -156,6 +184,10 @@
     "type": "practice"
   },
   {
+    "name": "protein-translation",
+    "type": "practice"
+  },
+  {
     "name": "proverb",
     "type": "practice"
   },
@@ -165,6 +197,10 @@
   },
   {
     "name": "queen-attack",
+    "type": "practice"
+  },
+  {
+    "name": "rail-fence-cipher",
     "type": "practice"
   },
   {
@@ -208,6 +244,10 @@
     "type": "practice"
   },
   {
+    "name": "say",
+    "type": "practice"
+  },
+  {
     "name": "scrabble-score",
     "type": "practice"
   },
@@ -224,11 +264,19 @@
     "type": "practice"
   },
   {
+    "name": "spiral-matrix",
+    "type": "practice"
+  },
+  {
     "name": "square-root",
     "type": "practice"
   },
   {
     "name": "state-of-tic-tac-toe",
+    "type": "practice"
+  },
+  {
+    "name": "sublist",
     "type": "practice"
   },
   {
@@ -249,6 +297,14 @@
   },
   {
     "name": "variable-length-quantity",
+    "type": "practice"
+  },
+  {
+    "name": "wordy",
+    "type": "practice"
+  },
+  {
+    "name": "yacht",
     "type": "practice"
   },
   {

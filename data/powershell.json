@@ -40,6 +40,10 @@
     "type": "practice"
   },
   {
+    "name": "baffling-birthdays",
+    "type": "practice"
+  },
+  {
     "name": "binary-search-tree",
     "type": "practice"
   },
@@ -133,6 +137,10 @@
   },
   {
     "name": "flatten-array",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {
@@ -336,6 +344,10 @@
     "type": "practice"
   },
   {
+    "name": "relative-distance",
+    "type": "practice"
+  },
+  {
     "name": "resistor-color-duo",
     "type": "practice"
   },
@@ -453,6 +465,10 @@
   },
   {
     "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "swift-scheduling",
     "type": "practice"
   },
   {

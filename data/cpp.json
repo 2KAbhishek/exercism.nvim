@@ -64,11 +64,19 @@
     "type": "practice"
   },
   {
+    "name": "affine-cipher",
+    "type": "practice"
+  },
+  {
     "name": "all-your-base",
     "type": "practice"
   },
   {
     "name": "allergies",
+    "type": "practice"
+  },
+  {
+    "name": "alphametics",
     "type": "practice"
   },
   {
@@ -149,6 +157,10 @@
   },
   {
     "name": "etl",
+    "type": "practice"
+  },
+  {
+    "name": "flower-field",
     "type": "practice"
   },
   {
