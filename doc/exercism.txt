@@ -1,4 +1,4 @@
-*exercism.txt*          For Neovim >= 0.8.0          Last change: 2025 July 11
+*exercism.txt*          For Neovim >= 0.8.0          Last change: 2025 July 21
 
 ==============================================================================
 Table of Contents                                 *exercism-table-of-contents*
