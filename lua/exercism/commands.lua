@@ -1,23 +1,29 @@
 local main = require('exercism.main')
 local config = require('exercism.config').config
 local legacy = require('exercism.legacy')
+
+---@type string
 local default_language = config.default_language
 
+---@class ExercismCommands
 local M = {}
 
-local function add_keymap(keys, cmd, desc)
-    vim.api.nvim_set_keymap('n', keys, cmd, { noremap = true, silent = true, desc = desc })
-end
-
+---Add default keybindings for Exercism commands
 local function add_default_keymaps()
+    local function add_keymap(keys, cmd, desc)
+        vim.api.nvim_set_keymap('n', keys, cmd, { noremap = true, silent = true, desc = desc })
+    end
+
     add_keymap('<leader>exa', ':Exercism languages<CR>', 'All Exercism Languages')
     add_keymap('<leader>exl', ':Exercism list<CR>', 'Exercism List')
     add_keymap('<leader>ext', ':Exercism test<CR>', 'Exercism Test')
     add_keymap('<leader>exs', ':Exercism submit<CR>', 'Exercism Submit')
 end
 
--- Tab completion function for the unified Exercism command
-local function exercism_complete(arg_lead, cmd_line, cursor_pos)
+---Parse command line arguments into words
+---@param cmd_line string
+---@return string[]
+local function parse_command_line(cmd_line)
     local words = {}
     for word in cmd_line:gmatch('%S+') do
         table.insert(words, word)
@@ -27,85 +33,94 @@ local function exercism_complete(arg_lead, cmd_line, cursor_pos)
         table.remove(words, 1)
     end
 
-    local completing_subcommand = (#words == 0) or (#words == 1 and not cmd_line:match('%s$'))
+    return words
+end
 
-    if completing_subcommand then
-        local subcommands = { 'languages', 'list', 'test', 'submit', 'open', 'exercise' }
-        local matches = {}
+---Filter items by prefix match
+---@param items string[]
+---@param prefix string
+---@return string[]
+local function filter_by_prefix(items, prefix)
+    local matches = {}
 
-        for _, cmd in ipairs(subcommands) do
-            if cmd:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
-                table.insert(matches, cmd)
-            end
+    for _, item in ipairs(items) do
+        if item:find('^' .. vim.pesc(prefix or ''), 1, false) then
+            table.insert(matches, item)
         end
+    end
 
-        return matches
-    elseif #words >= 1 and words[1] == 'list' then
-        local completing_language = (#words == 1) or (#words == 2 and not cmd_line:match('%s$'))
+    return matches
+end
 
-        if completing_language then
-            local languages = main.get_available_languages()
-            local matches = {}
+---Complete subcommands
+---@param arg_lead string
+---@return string[]
+local function complete_subcommands(arg_lead)
+    local subcommands = { 'languages', 'list', 'test', 'submit', 'open', 'exercise' }
+    return filter_by_prefix(subcommands, arg_lead)
+end
 
-            for _, lang in ipairs(languages) do
-                if lang:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
-                    table.insert(matches, lang)
-                end
-            end
+---Complete languages
+---@param arg_lead string
+---@return string[]
+local function complete_languages(arg_lead)
+    local languages = main.get_available_languages()
+    return filter_by_prefix(languages, arg_lead)
+end
 
-            return matches
+---Complete exercises for a specific language
+---@param language string
+---@param arg_lead string
+---@return string[]
+local function complete_exercises(language, arg_lead)
+    local exercises = main.get_exercise_names(language)
+    return filter_by_prefix(exercises, arg_lead)
+end
+
+---Determine if we're completing at a specific position
+---@param words string[]
+---@param position integer
+---@param cmd_line string
+---@return boolean
+local function is_completing_at_position(words, position, cmd_line)
+    return (#words == position - 1) or (#words == position and not cmd_line:match('%s$'))
+end
+
+---Tab completion function for the unified Exercism command
+---@param arg_lead string
+---@param cmd_line string
+---@param cursor_pos integer
+---@return string[]
+local function exercism_complete(arg_lead, cmd_line, cursor_pos)
+    local words = parse_command_line(cmd_line)
+
+    if is_completing_at_position(words, 1, cmd_line) then
+        return complete_subcommands(arg_lead)
+    end
+
+    local subcommand = words[1]
+
+    if subcommand == 'list' then
+        if is_completing_at_position(words, 2, cmd_line) then
+            return complete_languages(arg_lead)
         end
-    elseif #words >= 1 and words[1] == 'open' then
-        -- Complete language first, then exercise name for that language
-        local completing_language = (#words == 1) or (#words == 2 and not cmd_line:match('%s$'))
-        local completing_exercise = (#words == 2) or (#words == 3 and not cmd_line:match('%s$'))
-
-        if completing_language then
-            local languages = main.get_available_languages()
-            local matches = {}
-
-            for _, lang in ipairs(languages) do
-                if lang:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
-                    table.insert(matches, lang)
-                end
-            end
-
-            return matches
-        elseif completing_exercise and #words >= 2 then
-            local language = words[2]
-            local exercises = main.get_exercise_names(language)
-            local matches = {}
-
-            for _, exercise in ipairs(exercises) do
-                if exercise:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
-                    table.insert(matches, exercise)
-                end
-            end
-
-            return matches
+    elseif subcommand == 'open' then
+        if is_completing_at_position(words, 2, cmd_line) then
+            return complete_languages(arg_lead)
+        elseif is_completing_at_position(words, 3, cmd_line) and #words >= 2 then
+            return complete_exercises(words[2], arg_lead)
         end
-    elseif #words >= 1 and words[1] == 'exercise' then
-        -- Complete exercise name for default language
-        local completing_exercise = (#words == 1) or (#words == 2 and not cmd_line:match('%s$'))
-
-        if completing_exercise then
-            local exercises = main.get_exercise_names(default_language)
-            local matches = {}
-
-            for _, exercise in ipairs(exercises) do
-                if exercise:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
-                    table.insert(matches, exercise)
-                end
-            end
-
-            return matches
+    elseif subcommand == 'exercise' then
+        if is_completing_at_position(words, 2, cmd_line) then
+            return complete_exercises(default_language, arg_lead)
         end
     end
 
     return {}
 end
 
--- Main command handler
+---Main command handler
+---@param opts table
 local function exercism_command(opts)
     local args = vim.split(opts.args, '%s+')
     local subcommand = args[1]
@@ -121,8 +136,7 @@ local function exercism_command(opts)
     if subcommand == 'languages' then
         main.list_languages()
     elseif subcommand == 'list' then
-        local language = args[2]
-        main.list_exercises(language)
+        main.list_exercises(args[2])
     elseif subcommand == 'test' then
         main.test_exercise()
     elseif subcommand == 'submit' then
@@ -144,6 +158,7 @@ local function exercism_command(opts)
             vim.notify('Usage: Exercism exercise <exercise>', vim.log.levels.ERROR)
             return
         end
+
         main.open_exercise(exercise_name, default_language)
     else
         vim.notify(
@@ -155,6 +170,7 @@ local function exercism_command(opts)
     end
 end
 
+---Setup function to initialize commands
 M.setup = function()
     if config.use_new_command then
         vim.api.nvim_create_user_command('Exercism', exercism_command, {
