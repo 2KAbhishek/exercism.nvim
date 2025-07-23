@@ -5,11 +5,13 @@ local M = {}
 ---@field exercism_workspace string
 ---@field default_language string
 ---@field add_default_keybindings boolean
+---@field use_new_command boolean
 ---@field icons table<string, string>
 local config = {
     exercism_workspace = '~/exercism',
     default_language = 'ruby',
     add_default_keybindings = true,
+    use_new_command = false,
     icons = {
         concept = '',
         practice = '',
