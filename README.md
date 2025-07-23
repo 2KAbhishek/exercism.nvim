@@ -78,7 +78,6 @@ exercism.setup({
     exercism_workspace = '~/exercism', -- Default workspace for exercism exercises
     default_language = 'ruby', -- Default language for exercise list
     add_default_keybindings = true, -- Whether to add default keybindings
-    use_new_command = false, -- Use new Exercism command
     max_recents = 30, -- Maximum number of recent exercises to keep
     icons = {
         concept = '', -- Icon for concept exercises
@@ -98,16 +97,6 @@ exercism.setup({
 - `Exercism open <language> <exercise>` - Opens a specific exercise directly in the specified language
 - `Exercism exercise <exercise>` - Opens a specific exercise directly using the default language
 - `Exercism recents` - Shows recently opened exercises in a fuzzy searchable list
-
-#### Deprecated Commands
-
-> **⚠️ DEPRECATION NOTICE**: The following commands are deprecated and will be removed in a future version. Please migrate to the new `Exercism` commands above.
-> More information: https://github.com/2kabhishek/exercism.nvim/issues/4
-
-- `ExercismLanguages` → `Exercism languages`
-- `ExercismList [language]` → `Exercism list [language]`
-- `ExercismTest` → `Exercism test`
-- `ExercismSubmit` → `Exercism submit`
 
 ### Keybindings
 
