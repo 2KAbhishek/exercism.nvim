@@ -17,15 +17,6 @@ local function get_plugin_path()
     return vim.fn.fnamemodify(script_path, ':h:h:h')
 end
 
----@param language string
----@return any
-local function get_exercise_data(language)
-    local plugin_path = get_plugin_path()
-    local exercise_file = plugin_path .. '/data/' .. language .. '.json'
-    local exercise_data = vim.fn.json_decode(vim.fn.readfile(exercise_file))
-    return exercise_data
-end
-
 ---@param exercise_name string
 ---@param language string?
 ---@return string
@@ -57,12 +48,29 @@ local function handle_selection(exercise_name, language)
     end
 end
 
-M.list_languages = function()
+---@param language string
+---@return any
+local function get_exercise_data(language)
+    local plugin_path = get_plugin_path()
+    local exercise_file = plugin_path .. '/data/' .. language .. '.json'
+    local exercise_data = vim.fn.json_decode(vim.fn.readfile(exercise_file))
+    return exercise_data
+end
+
+-- Get available languages from data directory
+M.get_available_languages = function()
     local plugin_path = get_plugin_path()
     local language_files = vim.fn.glob(plugin_path .. '/data/*.json', false, true)
     local languages = vim.tbl_map(function(file)
         return vim.fn.fnamemodify(file, ':t:r')
     end, language_files)
+
+    table.sort(languages)
+    return languages
+end
+
+M.list_languages = function()
+    local languages = M.get_available_languages()
 
     vim.ui.select(languages, {
         prompt = 'Select Language',
