@@ -4,19 +4,27 @@ local shell = require('utils.shell')
 local Path = require('plenary.path')
 local config = require('exercism.config').config
 
----@class exercism.main
+---@class ExercismExercise
+---@field name string
+---@field type string
+
+---@class ExercismMain
 local M = {}
 
+---@type table<string, string>
 local type_icons_map = {
     ['concept'] = config.icons.concept .. '  ',
     ['practice'] = config.icons.practice .. '  ',
 }
 
+---Get the plugin root path
+---@return string
 local function get_plugin_path()
     local script_path = debug.getinfo(1, 'S').source:sub(2)
     return vim.fn.fnamemodify(script_path, ':h:h:h')
 end
 
+---Get the directory path for an exercise
 ---@param exercise_name string
 ---@param language string?
 ---@return string
@@ -24,7 +32,9 @@ local function get_exercise_dir(exercise_name, language)
     return vim.fn.expand(config.exercism_workspace .. '/' .. language .. '/' .. exercise_name)
 end
 
--- Get exercise data for a specific language
+---Get exercise data for a specific language
+---@param language string
+---@return ExercismExercise[]
 local function get_exercise_data(language)
     local plugin_path = get_plugin_path()
     local exercise_file = plugin_path .. '/data/' .. language .. '.json'
@@ -32,7 +42,8 @@ local function get_exercise_data(language)
     return exercise_data
 end
 
--- Get available languages from data directory
+---Get available languages from data directory
+---@return string[]
 M.get_available_languages = function()
     local plugin_path = get_plugin_path()
     local language_files = vim.fn.glob(plugin_path .. '/data/*.json', false, true)
@@ -44,7 +55,9 @@ M.get_available_languages = function()
     return languages
 end
 
--- Get exercise names for a specific language
+---Get exercise names for a specific language
+---@param language string
+---@return string[]
 M.get_exercise_names = function(language)
     local exercise_data = get_exercise_data(language)
     local names = vim.tbl_map(function(exercise)
@@ -55,9 +68,9 @@ M.get_exercise_names = function(language)
     return names
 end
 
----@param exercise_name string
----@param language string | nil
 ---Open a specific exercise directly
+---@param exercise_name string
+---@param language string|nil
 M.open_exercise = function(exercise_name, language)
     if language == '' or language == nil then
         language = config.default_language
@@ -83,6 +96,7 @@ M.open_exercise = function(exercise_name, language)
     end
 end
 
+---List all available languages for selection
 M.list_languages = function()
     local languages = M.get_available_languages()
 
@@ -95,7 +109,8 @@ M.list_languages = function()
     end)
 end
 
----@param language string
+---List exercises for a specific language
+---@param language string|nil
 M.list_exercises = function(language)
     if language == '' or language == nil then
         language = config.default_language
@@ -117,6 +132,7 @@ M.list_exercises = function(language)
     end
 end
 
+---Run tests for the current exercise
 M.test_exercise = function()
     local is_termim_present = vim.fn.exists(':STerm') == 2
     local test_cmd = 'exercism test'
@@ -127,6 +143,7 @@ M.test_exercise = function()
     end
 end
 
+---Submit the current exercise
 M.submit_exercise = function()
     local submit_cmd = 'exercism submit'
     shell.async_shell_execute(submit_cmd, function(result)
