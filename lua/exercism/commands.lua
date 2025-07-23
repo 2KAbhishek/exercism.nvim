@@ -40,16 +40,20 @@ local function exercism_complete(arg_lead, cmd_line, cursor_pos)
 
         return matches
     elseif #words >= 1 and words[1] == 'list' then
-        local languages = main.get_available_languages()
-        local matches = {}
+        local completing_language = (#words == 1) or (#words == 2 and not cmd_line:match('%s$'))
 
-        for _, lang in ipairs(languages) do
-            if lang:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
-                table.insert(matches, lang)
+        if completing_language then
+            local languages = main.get_available_languages()
+            local matches = {}
+
+            for _, lang in ipairs(languages) do
+                if lang:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
+                    table.insert(matches, lang)
+                end
             end
-        end
 
-        return matches
+            return matches
+        end
     end
 
     return {}
