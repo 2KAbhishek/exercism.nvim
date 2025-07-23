@@ -98,6 +98,8 @@ exercism.setup({
 - `Exercism list [language]` - Lists exercises for the specified language (with tab completion), show exercises for default language if not specified
 - `Exercism test` - Runs tests for the current exercise
 - `Exercism submit` - Submits the current exercise
+- `Exercism open <language> <exercise>` - Opens a specific exercise directly in the specified language (with tab completion)
+- `Exercism exercise <exercise>` - Opens a specific exercise directly using the default language (with tab completion)
 
 #### Deprecated Commands
 
