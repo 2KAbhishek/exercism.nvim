@@ -1,6 +1,7 @@
 local main = require('exercism.main')
 local config = require('exercism.config').config
 local legacy = require('exercism.legacy')
+local default_language = config.default_language
 
 local M = {}
 
@@ -29,7 +30,7 @@ local function exercism_complete(arg_lead, cmd_line, cursor_pos)
     local completing_subcommand = (#words == 0) or (#words == 1 and not cmd_line:match('%s$'))
 
     if completing_subcommand then
-        local subcommands = { 'languages', 'list', 'test', 'submit' }
+        local subcommands = { 'languages', 'list', 'test', 'submit', 'open', 'exercise' }
         local matches = {}
 
         for _, cmd in ipairs(subcommands) do
@@ -54,6 +55,51 @@ local function exercism_complete(arg_lead, cmd_line, cursor_pos)
 
             return matches
         end
+    elseif #words >= 1 and words[1] == 'open' then
+        -- Complete language first, then exercise name for that language
+        local completing_language = (#words == 1) or (#words == 2 and not cmd_line:match('%s$'))
+        local completing_exercise = (#words == 2) or (#words == 3 and not cmd_line:match('%s$'))
+
+        if completing_language then
+            local languages = main.get_available_languages()
+            local matches = {}
+
+            for _, lang in ipairs(languages) do
+                if lang:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
+                    table.insert(matches, lang)
+                end
+            end
+
+            return matches
+        elseif completing_exercise and #words >= 2 then
+            local language = words[2]
+            local exercises = main.get_exercise_names(language)
+            local matches = {}
+
+            for _, exercise in ipairs(exercises) do
+                if exercise:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
+                    table.insert(matches, exercise)
+                end
+            end
+
+            return matches
+        end
+    elseif #words >= 1 and words[1] == 'exercise' then
+        -- Complete exercise name for default language
+        local completing_exercise = (#words == 1) or (#words == 2 and not cmd_line:match('%s$'))
+
+        if completing_exercise then
+            local exercises = main.get_exercise_names(default_language)
+            local matches = {}
+
+            for _, exercise in ipairs(exercises) do
+                if exercise:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
+                    table.insert(matches, exercise)
+                end
+            end
+
+            return matches
+        end
     end
 
     return {}
@@ -66,7 +112,7 @@ local function exercism_command(opts)
 
     if not subcommand or subcommand == '' then
         vim.notify(
-            'Usage: Exercism <subcommand> [args]\nSubcommands: languages, list [language], test, submit',
+            'Usage: Exercism <subcommand> [args]\nSubcommands: languages, list [language], test, submit, open <language> <exercise>, exercise <exercise>',
             vim.log.levels.INFO
         )
         return
@@ -81,9 +127,29 @@ local function exercism_command(opts)
         main.test_exercise()
     elseif subcommand == 'submit' then
         main.submit_exercise()
+    elseif subcommand == 'open' then
+        local language = args[2]
+        local exercise_name = args[3]
+
+        if not language or not exercise_name then
+            vim.notify('Usage: Exercism open <language> <exercise>', vim.log.levels.ERROR)
+            return
+        end
+
+        main.open_exercise(exercise_name, language)
+    elseif subcommand == 'exercise' then
+        local exercise_name = args[2]
+
+        if not exercise_name then
+            vim.notify('Usage: Exercism exercise <exercise>', vim.log.levels.ERROR)
+            return
+        end
+        main.open_exercise(exercise_name, default_language)
     else
         vim.notify(
-            'Unknown subcommand: ' .. subcommand .. '\nAvailable: languages, list [language], test, submit',
+            'Unknown subcommand: '
+                .. subcommand
+                .. '\nAvailable: languages, list [language], test, submit, open <language> <exercise>, exercise <exercise>',
             vim.log.levels.ERROR
         )
     end
