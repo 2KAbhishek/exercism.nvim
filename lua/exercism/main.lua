@@ -24,9 +24,44 @@ local function get_exercise_dir(exercise_name, language)
     return vim.fn.expand(config.exercism_workspace .. '/' .. language .. '/' .. exercise_name)
 end
 
+-- Get exercise data for a specific language
+local function get_exercise_data(language)
+    local plugin_path = get_plugin_path()
+    local exercise_file = plugin_path .. '/data/' .. language .. '.json'
+    local exercise_data = vim.fn.json_decode(vim.fn.readfile(exercise_file))
+    return exercise_data
+end
+
+-- Get available languages from data directory
+M.get_available_languages = function()
+    local plugin_path = get_plugin_path()
+    local language_files = vim.fn.glob(plugin_path .. '/data/*.json', false, true)
+    local languages = vim.tbl_map(function(file)
+        return vim.fn.fnamemodify(file, ':t:r')
+    end, language_files)
+
+    table.sort(languages)
+    return languages
+end
+
+-- Get exercise names for a specific language
+M.get_exercise_names = function(language)
+    local exercise_data = get_exercise_data(language)
+    local names = vim.tbl_map(function(exercise)
+        return exercise.name
+    end, exercise_data)
+
+    table.sort(names)
+    return names
+end
+
 ---@param exercise_name string
----@param language string
-local function handle_selection(exercise_name, language)
+---@param language string | nil
+---Open a specific exercise directly
+M.open_exercise = function(exercise_name, language)
+    if language == '' or language == nil then
+        language = config.default_language
+    end
     local exercise_dir = get_exercise_dir(exercise_name, language)
 
     if not Path:new(exercise_dir):exists() then
@@ -46,27 +81,6 @@ local function handle_selection(exercise_name, language)
     else
         shell.open_session_or_dir(exercise_dir)
     end
-end
-
----@param language string
----@return any
-local function get_exercise_data(language)
-    local plugin_path = get_plugin_path()
-    local exercise_file = plugin_path .. '/data/' .. language .. '.json'
-    local exercise_data = vim.fn.json_decode(vim.fn.readfile(exercise_file))
-    return exercise_data
-end
-
--- Get available languages from data directory
-M.get_available_languages = function()
-    local plugin_path = get_plugin_path()
-    local language_files = vim.fn.glob(plugin_path .. '/data/*.json', false, true)
-    local languages = vim.tbl_map(function(file)
-        return vim.fn.fnamemodify(file, ':t:r')
-    end, language_files)
-
-    table.sort(languages)
-    return languages
 end
 
 M.list_languages = function()
@@ -98,7 +112,7 @@ M.list_exercises = function(language)
             if not selected_exercise then
                 return
             end
-            handle_selection(selected_exercise.name, language)
+            M.open_exercise(selected_exercise.name, language)
         end)
     end
 end
