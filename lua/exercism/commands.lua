@@ -17,34 +17,34 @@ end
 
 -- Tab completion function for the unified Exercism command
 local function exercism_complete(arg_lead, cmd_line, cursor_pos)
-    local args = vim.split(cmd_line, '%s+')
-    local num_args = #args
-
-    -- Remove 'Exercism' from args count
-    if args[1] == 'Exercism' then
-        num_args = num_args - 1
-        table.remove(args, 1)
+    local words = {}
+    for word in cmd_line:gmatch('%S+') do
+        table.insert(words, word)
     end
 
-    if num_args == 0 or (num_args == 1 and arg_lead ~= '') then
+    if words[1] == 'Exercism' then
+        table.remove(words, 1)
+    end
+
+    local completing_subcommand = (#words == 0) or (#words == 1 and not cmd_line:match('%s$'))
+
+    if completing_subcommand then
         local subcommands = { 'languages', 'list', 'test', 'submit' }
         local matches = {}
 
         for _, cmd in ipairs(subcommands) do
-            if cmd:match('^' .. vim.pesc(arg_lead)) then
+            if cmd:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
                 table.insert(matches, cmd)
             end
         end
 
         return matches
-    end
-
-    if num_args == 2 and args[1] == 'list' then
+    elseif #words >= 1 and words[1] == 'list' then
         local languages = main.get_available_languages()
         local matches = {}
 
         for _, lang in ipairs(languages) do
-            if lang:match('^' .. vim.pesc(arg_lead)) then
+            if lang:find('^' .. vim.pesc(arg_lead or ''), 1, false) then
                 table.insert(matches, lang)
             end
         end
