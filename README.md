@@ -95,16 +95,16 @@ exercism.setup({
 `exercism.nvim` provides a unified command interface with tab completion:
 
 - `Exercism languages` - Lists all available languages, select one to list exercises
-- `Exercism list [language]` - Lists exercises for the specified language (with tab completion), show exercises for default language if not specified
+- `Exercism list [language]` - Lists exercises for the specified language, show exercises for default language if not specified
 - `Exercism test` - Runs tests for the current exercise
 - `Exercism submit` - Submits the current exercise
-- `Exercism open <language> <exercise>` - Opens a specific exercise directly in the specified language (with tab completion)
-- `Exercism exercise <exercise>` - Opens a specific exercise directly using the default language (with tab completion)
+- `Exercism open <language> <exercise>` - Opens a specific exercise directly in the specified language
+- `Exercism exercise <exercise>` - Opens a specific exercise directly using the default language
 
 #### Deprecated Commands
 
 > **⚠️ DEPRECATION NOTICE**: The following commands are deprecated and will be removed in a future version. Please migrate to the new `Exercism` commands above.
-> More information: https://github.com/2kabhishek/exercism.nvim/issues/13
+> More information: https://github.com/2kabhishek/exercism.nvim/issues/4
 
 - `ExercismLanguages` → `Exercism languages`
 - `ExercismList [language]` → `Exercism list [language]`

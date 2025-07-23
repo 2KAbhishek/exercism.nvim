@@ -186,7 +186,7 @@ M.setup = function()
         vim.notify(
             'Legacy Exercism commands are deprecated and will be removed on 15th August 2025.\n'
                 .. 'Please switch the new `:Exercism` command by adding `use_new_command` in your config.\n'
-                .. 'More info: https://github.com/2kabhishek/exercism.nvim/issues/13',
+                .. 'More info: https://github.com/2kabhishek/exercism.nvim/issues/4',
             vim.log.levels.WARN
         )
 
