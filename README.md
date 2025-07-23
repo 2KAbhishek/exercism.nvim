@@ -57,12 +57,7 @@ exercism.nvim integrates exercism into Neovim by providing a set of commands and
 -- Lazy
 {
     '2kabhishek/exercism.nvim',
-    cmd = {
-        'ExercismLanguages',
-        'ExercismList',
-        'ExercismSubmit',
-        'ExercismTest',
-    },
+    cmd = { 'Exercism' },
     keys = {
         '<leader>exa',
         '<leader>exl',
@@ -87,6 +82,7 @@ exercism.setup({
     exercism_workspace = '~/exercism', -- Default workspace for exercism exercises
     default_language = 'ruby', -- Default language for exercise list
     add_default_keybindings = true, -- Whether to add default keybindings
+    use_new_command = false, -- Use new Exercism command
     icons = {
         concept = '', -- Icon for concept exercises
         practice = '', -- Icon for practice exercises
@@ -96,21 +92,33 @@ exercism.setup({
 
 ### Commands
 
-`exercism.nvim` adds the following commands:
+`exercism.nvim` provides a unified command interface with tab completion:
 
-- `ExercismLanguages`: Lists all available languages, select one to list exercises.
-- `ExercismList [language]`: Lists exercises for the specified language, if not specified, uses the `default_language`.
-- `ExercismTest`: Runs tests for the current exercise.
-- `ExercismSubmit`: Submits the current exercise.
+- `Exercism languages` - Lists all available languages, select one to list exercises
+- `Exercism list [language]` - Lists exercises for the specified language (with tab completion), show exercises for default language if not specified
+- `Exercism test` - Runs tests for the current exercise
+- `Exercism submit` - Submits the current exercise
+
+#### Deprecated Commands
+
+> **⚠️ DEPRECATION NOTICE**: The following commands are deprecated and will be removed in a future version. Please migrate to the new `Exercism` commands above.
+> More information: https://github.com/2kabhishek/exercism.nvim/issues/13
+
+- `ExercismLanguages` → `Exercism languages`
+- `ExercismList [language]` → `Exercism list [language]`
+- `ExercismTest` → `Exercism test`
+- `ExercismSubmit` → `Exercism submit`
 
 ### Keybindings
 
 Here are the default keybindings:
 
-- `<leader>exa` for `ExercismLanguages`
-- `<leader>exl` for `ExercismList`
-- `<leader>ext` for `ExercismTest`
-- `<leader>exs` for `ExercismSubmit`
+| Keybinding    | Command                    | Description                               |
+| ------------- | -------------------------- | ----------------------------------------- |
+| `<leader>exa` | `Exercism languages`       | List all available languages              |
+| `<leader>exl` | `Exercism list [language]` | List exercises for the specified language |
+| `<leader>ext` | `Exercism test`            | Run tests for the current exercise        |
+| `<leader>exs` | `Exercism submit`          | Submit the current exercise               |
 
 > You can change these by setting `add_default_keybindings` to `false` and adding your own keybindings.
 
