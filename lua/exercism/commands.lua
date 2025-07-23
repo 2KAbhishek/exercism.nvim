@@ -20,20 +20,20 @@ local function add_default_keymaps()
     add_keymap('<leader>exs', ':Exercism submit<CR>', 'Exercism Submit')
 end
 
----Parse command line arguments into words
+---Parse command line arguments
 ---@param cmd_line string
 ---@return string[]
 local function parse_command_line(cmd_line)
-    local words = {}
-    for word in cmd_line:gmatch('%S+') do
-        table.insert(words, word)
+    local args = {}
+    for arg in cmd_line:gmatch('%S+') do
+        table.insert(args, arg)
     end
 
-    if words[1] == 'Exercism' then
-        table.remove(words, 1)
+    if args[1] == 'Exercism' then
+        table.remove(args, 1)
     end
 
-    return words
+    return args
 end
 
 ---Filter items by prefix match
@@ -78,12 +78,12 @@ local function complete_exercises(language, arg_lead)
 end
 
 ---Determine if we're completing at a specific position
----@param words string[]
+---@param args string[]
 ---@param position integer
 ---@param cmd_line string
 ---@return boolean
-local function is_completing_at_position(words, position, cmd_line)
-    return (#words == position - 1) or (#words == position and not cmd_line:match('%s$'))
+local function is_completing_at_position(args, position, cmd_line)
+    return (#args == position - 1) or (#args == position and not cmd_line:match('%s$'))
 end
 
 ---Tab completion function for the unified Exercism command
@@ -92,26 +92,26 @@ end
 ---@param cursor_pos integer
 ---@return string[]
 local function exercism_complete(arg_lead, cmd_line, cursor_pos)
-    local words = parse_command_line(cmd_line)
+    local args = parse_command_line(cmd_line)
 
-    if is_completing_at_position(words, 1, cmd_line) then
+    if is_completing_at_position(args, 1, cmd_line) then
         return complete_subcommands(arg_lead)
     end
 
-    local subcommand = words[1]
+    local subcommand = args[1]
 
     if subcommand == 'list' then
-        if is_completing_at_position(words, 2, cmd_line) then
+        if is_completing_at_position(args, 2, cmd_line) then
             return complete_languages(arg_lead)
         end
     elseif subcommand == 'open' then
-        if is_completing_at_position(words, 2, cmd_line) then
+        if is_completing_at_position(args, 2, cmd_line) then
             return complete_languages(arg_lead)
-        elseif is_completing_at_position(words, 3, cmd_line) and #words >= 2 then
-            return complete_exercises(words[2], arg_lead)
+        elseif is_completing_at_position(args, 3, cmd_line) and #args >= 2 then
+            return complete_exercises(args[2], arg_lead)
         end
     elseif subcommand == 'exercise' then
-        if is_completing_at_position(words, 2, cmd_line) then
+        if is_completing_at_position(args, 2, cmd_line) then
             return complete_exercises(default_language, arg_lead)
         end
     end
