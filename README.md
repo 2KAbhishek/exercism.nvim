@@ -59,12 +59,7 @@ exercism.nvim integrates exercism into Neovim by providing a set of commands and
 {
     '2kabhishek/exercism.nvim',
     cmd = { 'Exercism' },
-    keys = {
-        '<leader>exa',
-        '<leader>exl',
-        '<leader>exs',
-        '<leader>ext',
-    },
+    keys = { '<leader>exa', '<leader>exl', '<leader>exr' }, -- add your preferred keybindings
     dependencies = {
         '2kabhishek/utils.nvim', -- required, for utility functions
         '2kabhishek/termim.nvim', -- optional, better UX for running tests

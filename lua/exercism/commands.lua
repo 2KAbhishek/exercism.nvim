@@ -18,9 +18,10 @@ local function add_default_keymaps()
     end
 
     add_keymap('<leader>exa', ':Exercism languages<CR>', 'All Exercism Languages')
-    add_keymap('<leader>exl', ':Exercism list<CR>', 'Exercism List')
-    add_keymap('<leader>ext', ':Exercism test<CR>', 'Exercism Test')
-    add_keymap('<leader>exs', ':Exercism submit<CR>', 'Exercism Submit')
+    add_keymap('<leader>exl', ':Exercism list<CR>', 'List Default Language Exercises')
+    add_keymap('<leader>exr', ':Exercism recents<CR>', 'Recent Exercises')
+    add_keymap('<leader>ext', ':Exercism test<CR>', 'Test Exercise')
+    add_keymap('<leader>exs', ':Exercism submit<CR>', 'Submit Exercise')
 end
 
 ---Parse command line arguments
