@@ -3,6 +3,7 @@ local shell = require('utils.shell')
 
 local Path = require('plenary.path')
 local config = require('exercism.config').config
+local recents = require('exercism.recents')
 
 ---@class ExercismExercise
 ---@field name string
@@ -77,6 +78,7 @@ M.open_exercise = function(exercise_name, language)
     end
     local exercise_dir = get_exercise_dir(exercise_name, language)
 
+    recents.add_recent(language, exercise_name)
     if not Path:new(exercise_dir):exists() then
         local download_cmd = string.format('exercism download --track=%s --exercise=%s', language, exercise_name)
 
