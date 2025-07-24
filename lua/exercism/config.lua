@@ -6,6 +6,7 @@ local M = {}
 ---@field default_language string
 ---@field add_default_keybindings boolean
 ---@field use_new_command boolean
+---@field max_recents integer
 ---@field icons table<string, string>
 
 ---@type ExercismConfigOptions
@@ -14,6 +15,7 @@ local config = {
     default_language = 'ruby',
     add_default_keybindings = true,
     use_new_command = false,
+    max_recents = 30,
     icons = {
         concept = '',
         practice = '',
