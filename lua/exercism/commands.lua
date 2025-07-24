@@ -5,6 +5,9 @@ local legacy = require('exercism.legacy')
 ---@type string
 local default_language = config.default_language
 
+---@type string[]
+local subcommands = { 'languages', 'list', 'test', 'submit', 'open', 'exercise', 'recents' }
+
 ---@class ExercismCommands
 local M = {}
 
@@ -52,31 +55,6 @@ local function filter_by_prefix(items, prefix)
     return matches
 end
 
----Complete subcommands
----@param arg_lead string
----@return string[]
-local function complete_subcommands(arg_lead)
-    local subcommands = { 'languages', 'list', 'test', 'submit', 'open', 'exercise' }
-    return filter_by_prefix(subcommands, arg_lead)
-end
-
----Complete languages
----@param arg_lead string
----@return string[]
-local function complete_languages(arg_lead)
-    local languages = main.get_available_languages()
-    return filter_by_prefix(languages, arg_lead)
-end
-
----Complete exercises for a specific language
----@param language string
----@param arg_lead string
----@return string[]
-local function complete_exercises(language, arg_lead)
-    local exercises = main.get_exercise_names(language)
-    return filter_by_prefix(exercises, arg_lead)
-end
-
 ---Determine if we're completing at a specific position
 ---@param args string[]
 ---@param position integer
@@ -95,24 +73,24 @@ local function exercism_complete(arg_lead, cmd_line, cursor_pos)
     local args = parse_command_line(cmd_line)
 
     if is_completing_at_position(args, 1, cmd_line) then
-        return complete_subcommands(arg_lead)
+        return filter_by_prefix(subcommands, arg_lead)
     end
 
     local subcommand = args[1]
 
     if subcommand == 'list' then
         if is_completing_at_position(args, 2, cmd_line) then
-            return complete_languages(arg_lead)
+            return filter_by_prefix(main.get_available_languages(), arg_lead)
         end
     elseif subcommand == 'open' then
         if is_completing_at_position(args, 2, cmd_line) then
-            return complete_languages(arg_lead)
+            return filter_by_prefix(main.get_available_languages(), arg_lead)
         elseif is_completing_at_position(args, 3, cmd_line) and #args >= 2 then
-            return complete_exercises(args[2], arg_lead)
+            return filter_by_prefix(main.get_exercise_names(args[2]), arg_lead)
         end
     elseif subcommand == 'exercise' then
         if is_completing_at_position(args, 2, cmd_line) then
-            return complete_exercises(default_language, arg_lead)
+            return filter_by_prefix(main.get_exercise_names(default_language), arg_lead)
         end
     end
 
@@ -127,7 +105,7 @@ local function exercism_command(opts)
 
     if not subcommand or subcommand == '' then
         vim.notify(
-            'Usage: Exercism <subcommand> [args]\nSubcommands: languages, list [language], test, submit, open <language> <exercise>, exercise <exercise>',
+            'Usage: Exercism <subcommand> [args]\nSubcommands: ' .. table.concat(subcommands, ', '),
             vim.log.levels.INFO
         )
         return
@@ -160,11 +138,12 @@ local function exercism_command(opts)
         end
 
         main.open_exercise(exercise_name, default_language)
+    elseif subcommand == 'recents' then
+        local recents = require('exercism.recents')
+        recents.show_recents()
     else
         vim.notify(
-            'Unknown subcommand: '
-                .. subcommand
-                .. '\nAvailable: languages, list [language], test, submit, open <language> <exercise>, exercise <exercise>',
+            'Unknown subcommand: ' .. subcommand .. '\nAvailable: ' .. table.concat(subcommands, ', '),
             vim.log.levels.ERROR
         )
     end
