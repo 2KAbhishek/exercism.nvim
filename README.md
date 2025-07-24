@@ -37,6 +37,7 @@ exercism.nvim integrates exercism into Neovim by providing a set of commands and
 - Browse and choose exercises from the entire exercism library from within Neovim
 - Quickly test and submit your solutions
 - Review your existing solution for an exercise
+- Track and revisit recently opened exercises
 - Simple keybindings and commands to make your workflow faster
 
 ## ⚡ Setup
@@ -83,6 +84,7 @@ exercism.setup({
     default_language = 'ruby', -- Default language for exercise list
     add_default_keybindings = true, -- Whether to add default keybindings
     use_new_command = false, -- Use new Exercism command
+    max_recents = 30, -- Maximum number of recent exercises to keep
     icons = {
         concept = '', -- Icon for concept exercises
         practice = '', -- Icon for practice exercises
@@ -100,6 +102,7 @@ exercism.setup({
 - `Exercism submit` - Submits the current exercise
 - `Exercism open <language> <exercise>` - Opens a specific exercise directly in the specified language
 - `Exercism exercise <exercise>` - Opens a specific exercise directly using the default language
+- `Exercism recents` - Shows recently opened exercises in a fuzzy searchable list
 
 #### Deprecated Commands
 
