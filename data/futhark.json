@@ -24,6 +24,14 @@
     "type": "practice"
   },
   {
+    "name": "book-store",
+    "type": "practice"
+  },
+  {
+    "name": "change",
+    "type": "practice"
+  },
+  {
     "name": "collatz-conjecture",
     "type": "practice"
   },
@@ -44,6 +52,10 @@
     "type": "practice"
   },
   {
+    "name": "flower-field",
+    "type": "practice"
+  },
+  {
     "name": "grains",
     "type": "practice"
   },
@@ -60,6 +72,10 @@
     "type": "practice"
   },
   {
+    "name": "house",
+    "type": "practice"
+  },
+  {
     "name": "intergalactic-transmission",
     "type": "practice"
   },
@@ -69,6 +85,10 @@
   },
   {
     "name": "isogram",
+    "type": "practice"
+  },
+  {
+    "name": "knapsack",
     "type": "practice"
   },
   {
@@ -88,6 +108,10 @@
     "type": "practice"
   },
   {
+    "name": "nth-prime",
+    "type": "practice"
+  },
+  {
     "name": "pangram",
     "type": "practice"
   },
@@ -104,7 +128,15 @@
     "type": "practice"
   },
   {
+    "name": "pythagorean-triplet",
+    "type": "practice"
+  },
+  {
     "name": "queen-attack",
+    "type": "practice"
+  },
+  {
+    "name": "rail-fence-cipher",
     "type": "practice"
   },
   {

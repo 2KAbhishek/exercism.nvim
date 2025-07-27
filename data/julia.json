@@ -132,6 +132,10 @@
     "type": "concept"
   },
   {
+    "name": "regular-chatbot",
+    "type": "concept"
+  },
+  {
     "name": "role-playing-game",
     "type": "concept"
   },

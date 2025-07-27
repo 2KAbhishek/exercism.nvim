@@ -208,6 +208,10 @@
     "type": "practice"
   },
   {
+    "name": "high-scores",
+    "type": "practice"
+  },
+  {
     "name": "house",
     "type": "practice"
   },
@@ -457,6 +461,10 @@
   },
   {
     "name": "word-count",
+    "type": "practice"
+  },
+  {
+    "name": "word-search",
     "type": "practice"
   },
   {

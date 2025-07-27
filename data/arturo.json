@@ -32,6 +32,10 @@
     "type": "practice"
   },
   {
+    "name": "change",
+    "type": "practice"
+  },
+  {
     "name": "clock",
     "type": "practice"
   },
@@ -241,6 +245,10 @@
   },
   {
     "name": "sum-of-multiples",
+    "type": "practice"
+  },
+  {
+    "name": "tournament",
     "type": "practice"
   },
   {

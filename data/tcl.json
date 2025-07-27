@@ -256,6 +256,10 @@
     "type": "practice"
   },
   {
+    "name": "micro-blog",
+    "type": "practice"
+  },
+  {
     "name": "minesweeper",
     "type": "practice"
   },
@@ -269,6 +273,10 @@
   },
   {
     "name": "ocr-numbers",
+    "type": "practice"
+  },
+  {
+    "name": "paasio",
     "type": "practice"
   },
   {
@@ -437,6 +445,10 @@
   },
   {
     "name": "spiral-matrix",
+    "type": "practice"
+  },
+  {
+    "name": "split-second-stopwatch",
     "type": "practice"
   },
   {
