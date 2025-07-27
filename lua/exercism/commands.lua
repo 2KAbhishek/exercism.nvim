@@ -1,6 +1,5 @@
 local main = require('exercism.main')
 local config = require('exercism.config').config
-local legacy = require('exercism.legacy')
 
 ---@type string
 local default_language = config.default_language
@@ -152,26 +151,14 @@ end
 
 ---Setup function to initialize commands
 M.setup = function()
-    if config.use_new_command then
-        vim.api.nvim_create_user_command('Exercism', exercism_command, {
-            nargs = '*',
-            complete = exercism_complete,
-            desc = 'Exercism integration commands',
-        })
+    vim.api.nvim_create_user_command('Exercism', exercism_command, {
+        nargs = '*',
+        complete = exercism_complete,
+        desc = 'Exercism integration commands',
+    })
 
-        if config.add_default_keybindings then
-            add_default_keymaps()
-        end
-    else
-        vim.notify(
-            'Legacy Exercism commands are deprecated and will be removed on 15th August 2025.\n'
-                .. 'Please switch the new `:Exercism` command by adding `use_new_command` in your config.\n'
-                .. 'More info: https://github.com/2kabhishek/exercism.nvim/issues/4',
-            vim.log.levels.WARN
-        )
-
-        legacy.setup_legacy_commands()
-        legacy.setup_legacy_keybindings()
+    if config.add_default_keybindings then
+        add_default_keymaps()
     end
 end
 
