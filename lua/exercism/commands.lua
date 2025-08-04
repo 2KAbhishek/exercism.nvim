@@ -12,15 +12,21 @@ local M = {}
 
 ---Add default keybindings for Exercism commands
 local function add_default_keymaps()
-    local function add_keymap(keys, cmd, desc)
-        vim.api.nvim_set_keymap('n', keys, cmd, { noremap = true, silent = true, desc = desc })
-    end
+    local mappings = {
+        { '<leader>exa', ':Exercism languages<CR>', 'All Exercism Languages' },
+        { '<leader>exl', ':Exercism list<CR>', 'List Default Language Exercises' },
+        { '<leader>exr', ':Exercism recents<CR>', 'Recent Exercises' },
+        { '<leader>ext', ':Exercism test<CR>', 'Test Exercise' },
+        { '<leader>exs', ':Exercism submit<CR>', 'Submit Exercise' },
+    }
 
-    add_keymap('<leader>exa', ':Exercism languages<CR>', 'All Exercism Languages')
-    add_keymap('<leader>exl', ':Exercism list<CR>', 'List Default Language Exercises')
-    add_keymap('<leader>exr', ':Exercism recents<CR>', 'Recent Exercises')
-    add_keymap('<leader>ext', ':Exercism test<CR>', 'Test Exercise')
-    add_keymap('<leader>exs', ':Exercism submit<CR>', 'Submit Exercise')
+    for _, mapping in ipairs(mappings) do
+        vim.api.nvim_set_keymap('n', mapping[1], mapping[2], {
+            desc = mapping[3],
+            noremap = true,
+            silent = true,
+        })
+    end
 end
 
 ---Parse command line arguments
